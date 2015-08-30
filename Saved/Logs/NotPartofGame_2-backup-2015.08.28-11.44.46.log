@@ -1,0 +1,569 @@
+﻿[2015.08.28-09.41.04:273][  0]Log file open, 08/28/15 11:41:04
+[2015.08.28-09.41.04:273][  0]LogInit:Display: Running engine for game: NotPartofGame
+[2015.08.28-09.41.04:273][  0]LogInit:Display: RandInit(1003965510) SRandInit(1003965511).
+[2015.08.28-09.41.04:273][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.08.28-09.41.04:273][  0]LogStats: Stats thread started
+[2015.08.28-09.41.04:273][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.28-09.41.04:273][  0]LogInit: API Version: 2579680
+[2015.08.28-09.41.04:273][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.08.28-09.41.04:273][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.08.28-09.41.04:273][  0]LogInit: Build Configuration: Development
+[2015.08.28-09.41.04:273][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.08.28-09.41.04:273][  0]LogInit: Command line:  /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+[2015.08.28-09.41.04:273][  0]LogInit: Base directory: C:/Users/Bodoo/Documents/Programmieren/4.8/Engine/Binaries/Win64/
+[2015.08.28-09.41.04:273][  0]LogInit: Rocket: 1
+[2015.08.28-09.41.04:291][  0]LogInit: Using libcurl 7.41.0
+[2015.08.28-09.41.04:291][  0]LogInit:  - built for x86_64-pc-win32
+[2015.08.28-09.41.04:291][  0]LogInit:  - supports SSL with WinSSL
+[2015.08.28-09.41.04:291][  0]LogInit:  - other features:
+[2015.08.28-09.41.04:291][  0]LogInit:      CURL_VERSION_SSL
+[2015.08.28-09.41.04:291][  0]LogInit:      CURL_VERSION_IPV6
+[2015.08.28-09.41.04:291][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.08.28-09.41.04:291][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.08.28-09.41.04:291][  0]LogInit:      CURL_VERSION_IDN
+[2015.08.28-09.41.04:291][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.08.28-09.41.04:291][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.08.28-09.41.04:291][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.08.28-09.41.04:291][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.08.28-09.41.04:291][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.08.28-09.41.04:306][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.28-09.41.04:323][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.28-09.41.04:332][  0]LogInit: Object subsystem initialized
+[2015.08.28-09.41.04:333][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2015.08.28-09.41.04:333][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Bodoo/Documents/Programmieren/Projekte/NotPartofTheGame/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.28-09.41.04:334][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set ('Scalability' has a lower priority than 'ProjectSetting')
+[2015.08.28-09.41.04:334][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.28-09.41.04:334][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.28-09.41.04:337][  0]LogInit: Computer: DESKTOP-GLF6O4V
+[2015.08.28-09.41.04:337][  0]LogInit: User: Bodoo
+[2015.08.28-09.41.04:337][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.08.28-09.41.04:337][  0]LogInit: High frequency timer resolution =3.215356 MHz
+[2015.08.28-09.41.04:337][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2015.08.28-09.41.04:337][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.28-09.41.04:337][  0]LogMemory: Process Physical Memory: 49.55 MB used, 49.55 MB peak
+[2015.08.28-09.41.04:337][  0]LogMemory: Process Virtual Memory: 22.55 MB used, 22.55 MB peak
+[2015.08.28-09.41.04:337][  0]LogMemory: Physical Memory: 2656.04 MB used, 12270.70 MB total
+[2015.08.28-09.41.04:337][  0]LogMemory: Virtual Memory: 310.61 MB used, 134217728.00 MB total
+[2015.08.28-09.41.04:366][  0]LogTextLocalizationManager: The requested culture ('de_DE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.08.28-09.41.04:618][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Users/Bodoo/Documents/Programmieren/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Users/Bodoo/Documents/Programmieren/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.08.28-09.41.04:957][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6800 Series (Feature Level 11_0)
+[2015.08.28-09.41.04:957][  0]LogD3D11RHI: Adapter has 1011MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2015.08.28-09.41.04:958][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.08.28-09.41.04:958][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 6135MB of shared system memory, 0 output[s]
+[2015.08.28-09.41.04:958][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.28-09.41.04:960][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.28-09.41.04:961][  0]LogD3D11RHI: !Direct3DDevice
+[2015.08.28-09.41.04:961][  0]LogRHI: Texture pool is 708 MB (70% of 1011 MB)
+[2015.08.28-09.41.04:967][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.08.28-09.41.04:977][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.08.28-09.41.05:780][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.08.28-09.41.05:795][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.08.28-09.41.05:809][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.08.28-09.41.05:824][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.08.28-09.41.05:841][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.08.28-09.41.05:853][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.08.28-09.41.05:866][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.08.28-09.41.05:879][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.08.28-09.41.05:892][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.08.28-09.41.05:905][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.08.28-09.41.05:919][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.08.28-09.41.05:933][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.08.28-09.41.05:983][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.08.28-09.41.05:996][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.08.28-09.41.06:008][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.08.28-09.41.06:023][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.08.28-09.41.06:023][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.28-09.41.06:252][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.28-09.41.06:314][  0]LogDerivedDataCache: Loaded boot cache 0.06s 53MB C:/Users/Bodoo/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.28-09.41.06:314][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Bodoo/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.08.28-09.41.06:314][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Projekte/NotPartofTheGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.28-09.41.06:314][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.28-09.41.06:314][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Projekte/NotPartofTheGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.08.28-09.41.06:314][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.08.28-09.41.06:466][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.28-09.41.06:478][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bodoo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.28-09.41.06:721][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.28-09.41.06:806][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.28-09.41.06:807][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.28-09.41.06:835][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.28-09.41.06:835][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.28-09.41.07:117][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.28-09.41.07:559][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.28-09.41.07:563][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../Projekte/NotPartofTheGame/Content/Movies/Default_Startup.mp4
+[2015.08.28-09.41.07:706][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2015.08.28-09.41.07:752][  0]SourceControl: Info Source control is disabled
+[2015.08.28-09.41.07:752][  0]SourceControl: Info Source control is disabled
+[2015.08.28-09.41.07:762][  0]SourceControl: Info Source control is disabled
+[2015.08.28-09.41.07:949][  0]LogObj: 25913 objects as part of root set at end of initial load.
+[2015.08.28-09.41.07:949][  0]LogUObjectAllocator: 5218488 out of 0 bytes used by permanent object pool.
+[2015.08.28-09.41.08:017][  0]LogAutomationTest:Warning: ERR: Transient text cannot be serialized "Testing Transient serialization detection".
+[2015.08.28-09.41.08:017][  0]LogEngine: Initializing Engine...
+[2015.08.28-09.41.08:019][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.08.28-09.41.08:021][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.08.28-09.41.08:112][  0]LogInit: XAudio2 using 'Lautsprecher (G510s Gaming Keyboard)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.28-09.41.08:120][  0]LogInit: FAudioDevice initialized.
+[2015.08.28-09.41.08:128][  0]LogInit: Texture streaming: Disabled
+[2015.08.28-09.41.08:254][  0]LogNet: Browse: /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level?Name=Player
+[2015.08.28-09.41.08:254][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level?Name=Player
+[2015.08.28-09.41.08:265][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A8CD5C7560
+[2015.08.28-09.41.08:274][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.28-09.41.08:274][  0]LogMemory: Process Physical Memory: 333.61 MB used, 333.62 MB peak
+[2015.08.28-09.41.08:274][  0]LogMemory: Process Virtual Memory: 371.25 MB used, 371.25 MB peak
+[2015.08.28-09.41.08:274][  0]LogMemory: Physical Memory: 2891.24 MB used, 12270.70 MB total
+[2015.08.28-09.41.08:274][  0]LogMemory: Virtual Memory: 889.46 MB used, 134217728.00 MB total
+[2015.08.28-09.41.08:274][  0]LogMemory: 
+[2015.08.28-09.41.08:274][  0]Allocator Stats for TBB: (not implemented)
+[2015.08.28-09.41.09:168][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Roll".
+[2015.08.28-09.41.09:169][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Yaw".
+[2015.08.28-09.41.09:169][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Pitch".
+[2015.08.28-09.41.09:169][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Roll".
+[2015.08.28-09.41.09:169][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Yaw".
+[2015.08.28-09.41.09:169][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Pitch".
+[2015.08.28-09.41.09:215][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Roll".
+[2015.08.28-09.41.09:215][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Yaw".
+[2015.08.28-09.41.09:215][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Pitch".
+[2015.08.28-09.41.09:215][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Roll".
+[2015.08.28-09.41.09:215][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Yaw".
+[2015.08.28-09.41.09:215][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Pitch".
+[2015.08.28-09.41.10:069][  0]LogAIModule: Creating AISystem for world Testing_Level
+[2015.08.28-09.41.10:070][  0]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.08.28-09.41.10:129][  0]LogWorld: Bringing World /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level up for play (max tick rate 0) at 2015.08.28-11.41.10
+[2015.08.28-09.41.10:140][  0]LogWorld: Bringing up level for play took: 0.067069
+[2015.08.28-09.41.10:144][  0]LogInit:Display: Game Engine Initialized.
+[2015.08.28-09.41.10:370][  0]LogLoad: Full Startup: 7.77 seconds (BP compile: 0.95 seconds)
+[2015.08.28-09.41.10:388][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2015.08.28-09.41.10:516][  0]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:2).
+[2015.08.28-09.41.41:704][925]LogBlueprintUserMessages: 0.990322
+[2015.08.28-09.41.41:704][925]LogBlueprintUserMessages: 0.990322
+[2015.08.28-09.41.41:704][925]LogBlueprintUserMessages: 0.980645
+[2015.08.28-09.41.41:720][926]LogBlueprintUserMessages: 0.970967
+[2015.08.28-09.41.41:736][927]LogBlueprintUserMessages: 0.96129
+[2015.08.28-09.41.41:752][928]LogBlueprintUserMessages: 0.951612
+[2015.08.28-09.41.41:768][929]LogBlueprintUserMessages: 0.941935
+[2015.08.28-09.41.41:785][930]LogBlueprintUserMessages: 0.932257
+[2015.08.28-09.41.41:801][931]LogBlueprintUserMessages: 0.92258
+[2015.08.28-09.41.41:817][932]LogBlueprintUserMessages: 0.912902
+[2015.08.28-09.41.41:833][933]LogBlueprintUserMessages: 0.903225
+[2015.08.28-09.41.41:849][934]LogBlueprintUserMessages: 0.893547
+[2015.08.28-09.41.41:865][935]LogBlueprintUserMessages: 0.88387
+[2015.08.28-09.41.41:882][936]LogBlueprintUserMessages: 0.874192
+[2015.08.28-09.41.41:898][937]LogBlueprintUserMessages: 0.864515
+[2015.08.28-09.41.41:914][938]LogBlueprintUserMessages: 0.854837
+[2015.08.28-09.41.41:930][939]LogBlueprintUserMessages: 0.84516
+[2015.08.28-09.41.41:945][940]LogBlueprintUserMessages: 0.835482
+[2015.08.28-09.41.41:962][941]LogBlueprintUserMessages: 0.825805
+[2015.08.28-09.41.41:978][942]LogBlueprintUserMessages: 0.816127
+[2015.08.28-09.41.41:994][943]LogBlueprintUserMessages: 0.80645
+[2015.08.28-09.41.42:011][944]LogBlueprintUserMessages: 0.796772
+[2015.08.28-09.41.42:027][945]LogBlueprintUserMessages: 0.787095
+[2015.08.28-09.41.42:043][946]LogBlueprintUserMessages: 0.777417
+[2015.08.28-09.41.42:058][947]LogBlueprintUserMessages: 0.76774
+[2015.08.28-09.41.42:074][948]LogBlueprintUserMessages: 0.758062
+[2015.08.28-09.41.42:091][949]LogBlueprintUserMessages: 0.748385
+[2015.08.28-09.41.42:107][950]LogBlueprintUserMessages: 0.738707
+[2015.08.28-09.41.42:123][951]LogBlueprintUserMessages: 0.72903
+[2015.08.28-09.41.42:140][952]LogBlueprintUserMessages: 0.719352
+[2015.08.28-09.41.42:156][953]LogBlueprintUserMessages: 0.709675
+[2015.08.28-09.41.42:172][954]LogBlueprintUserMessages: 0.699997
+[2015.08.28-09.41.42:188][955]LogBlueprintUserMessages: 0.69032
+[2015.08.28-09.41.42:203][956]LogBlueprintUserMessages: 0.680642
+[2015.08.28-09.41.42:220][957]LogBlueprintUserMessages: 0.670965
+[2015.08.28-09.41.42:236][958]LogBlueprintUserMessages: 0.661287
+[2015.08.28-09.41.42:252][959]LogBlueprintUserMessages: 0.65161
+[2015.08.28-09.41.42:269][960]LogBlueprintUserMessages: 0.641932
+[2015.08.28-09.41.42:285][961]LogBlueprintUserMessages: 0.632255
+[2015.08.28-09.41.42:300][962]LogBlueprintUserMessages: 0.622577
+[2015.08.28-09.41.42:317][963]LogBlueprintUserMessages: 0.6129
+[2015.08.28-09.41.42:333][964]LogBlueprintUserMessages: 0.603222
+[2015.08.28-09.41.42:349][965]LogBlueprintUserMessages: 0.593545
+[2015.08.28-09.41.42:365][966]LogBlueprintUserMessages: 0.583867
+[2015.08.28-09.41.42:381][967]LogBlueprintUserMessages: 0.57419
+[2015.08.28-09.41.42:398][968]LogBlueprintUserMessages: 0.564512
+[2015.08.28-09.41.42:414][969]LogBlueprintUserMessages: 0.554835
+[2015.08.28-09.41.42:430][970]LogBlueprintUserMessages: 0.545157
+[2015.08.28-09.41.42:446][971]LogBlueprintUserMessages: 0.53548
+[2015.08.28-09.41.42:462][972]LogBlueprintUserMessages: 0.525802
+[2015.08.28-09.41.42:478][973]LogBlueprintUserMessages: 0.516125
+[2015.08.28-09.41.42:495][974]LogBlueprintUserMessages: 0.506447
+[2015.08.28-09.41.42:510][975]LogBlueprintUserMessages: 0.496758
+[2015.08.28-09.41.42:527][976]LogBlueprintUserMessages: 0.48708
+[2015.08.28-09.41.42:543][977]LogBlueprintUserMessages: 0.477403
+[2015.08.28-09.41.42:559][978]LogBlueprintUserMessages: 0.467725
+[2015.08.28-09.41.42:575][979]LogBlueprintUserMessages: 0.458048
+[2015.08.28-09.41.42:591][980]LogBlueprintUserMessages: 0.44837
+[2015.08.28-09.41.42:607][981]LogBlueprintUserMessages: 0.438693
+[2015.08.28-09.41.42:623][982]LogBlueprintUserMessages: 0.429015
+[2015.08.28-09.41.42:639][983]LogBlueprintUserMessages: 0.419338
+[2015.08.28-09.41.42:656][984]LogBlueprintUserMessages: 0.40966
+[2015.08.28-09.41.42:672][985]LogBlueprintUserMessages: 0.399983
+[2015.08.28-09.41.42:687][986]LogBlueprintUserMessages: 0.390305
+[2015.08.28-09.41.42:704][987]LogBlueprintUserMessages: 0.380628
+[2015.08.28-09.41.42:720][988]LogBlueprintUserMessages: 0.37095
+[2015.08.28-09.41.42:736][989]LogBlueprintUserMessages: 0.361273
+[2015.08.28-09.41.42:752][990]LogBlueprintUserMessages: 0.351595
+[2015.08.28-09.41.42:768][991]LogBlueprintUserMessages: 0.341918
+[2015.08.28-09.41.42:785][992]LogBlueprintUserMessages: 0.33224
+[2015.08.28-09.41.42:801][993]LogBlueprintUserMessages: 0.322563
+[2015.08.28-09.41.42:817][994]LogBlueprintUserMessages: 0.312881
+[2015.08.28-09.41.42:832][995]LogBlueprintUserMessages: 0.303203
+[2015.08.28-09.41.42:849][996]LogBlueprintUserMessages: 0.293526
+[2015.08.28-09.41.42:865][997]LogBlueprintUserMessages: 0.283848
+[2015.08.28-09.41.42:882][998]LogBlueprintUserMessages: 0.274171
+[2015.08.28-09.41.42:897][999]LogBlueprintUserMessages: 0.264493
+[2015.08.28-09.41.42:914][  0]LogBlueprintUserMessages: 0.254816
+[2015.08.28-09.41.42:930][  1]LogBlueprintUserMessages: 0.245129
+[2015.08.28-09.41.42:946][  2]LogBlueprintUserMessages: 0.235451
+[2015.08.28-09.41.49:995][439]LogBlueprintUserMessages: 0.990322
+[2015.08.28-09.41.49:995][439]LogBlueprintUserMessages: 0.990322
+[2015.08.28-09.41.49:995][439]LogBlueprintUserMessages: 0.980645
+[2015.08.28-09.41.50:011][440]LogBlueprintUserMessages: 0.970967
+[2015.08.28-09.41.50:027][441]LogBlueprintUserMessages: 0.96129
+[2015.08.28-09.41.50:043][442]LogBlueprintUserMessages: 0.951612
+[2015.08.28-09.41.50:059][443]LogBlueprintUserMessages: 0.941934
+[2015.08.28-09.41.50:075][444]LogBlueprintUserMessages: 0.932257
+[2015.08.28-09.41.50:091][445]LogBlueprintUserMessages: 0.922579
+[2015.08.28-09.41.50:107][446]LogBlueprintUserMessages: 0.912902
+[2015.08.28-09.41.50:124][447]LogBlueprintUserMessages: 0.903224
+[2015.08.28-09.41.50:140][448]LogBlueprintUserMessages: 0.893547
+[2015.08.28-09.41.50:156][449]LogBlueprintUserMessages: 0.883869
+[2015.08.28-09.41.50:172][450]LogBlueprintUserMessages: 0.874192
+[2015.08.28-09.41.50:188][451]LogBlueprintUserMessages: 0.864514
+[2015.08.28-09.41.50:204][452]LogBlueprintUserMessages: 0.854837
+[2015.08.28-09.41.50:221][453]LogBlueprintUserMessages: 0.845159
+[2015.08.28-09.41.50:237][454]LogBlueprintUserMessages: 0.835482
+[2015.08.28-09.41.50:253][455]LogBlueprintUserMessages: 0.825804
+[2015.08.28-09.41.50:269][456]LogBlueprintUserMessages: 0.816127
+[2015.08.28-09.41.50:285][457]LogBlueprintUserMessages: 0.806449
+[2015.08.28-09.41.50:301][458]LogBlueprintUserMessages: 0.796772
+[2015.08.28-09.41.50:317][459]LogBlueprintUserMessages: 0.787094
+[2015.08.28-09.41.50:333][460]LogBlueprintUserMessages: 0.777417
+[2015.08.28-09.41.50:349][461]LogBlueprintUserMessages: 0.767739
+[2015.08.28-09.41.50:366][462]LogBlueprintUserMessages: 0.758062
+[2015.08.28-09.41.50:382][463]LogBlueprintUserMessages: 0.748384
+[2015.08.28-09.41.50:398][464]LogBlueprintUserMessages: 0.738707
+[2015.08.28-09.41.50:414][465]LogBlueprintUserMessages: 0.729029
+[2015.08.28-09.41.50:430][466]LogBlueprintUserMessages: 0.719352
+[2015.08.28-09.41.50:446][467]LogBlueprintUserMessages: 0.709674
+[2015.08.28-09.41.50:463][468]LogBlueprintUserMessages: 0.699997
+[2015.08.28-09.41.50:479][469]LogBlueprintUserMessages: 0.690319
+[2015.08.28-09.41.50:495][470]LogBlueprintUserMessages: 0.680642
+[2015.08.28-09.41.50:511][471]LogBlueprintUserMessages: 0.670964
+[2015.08.28-09.41.50:527][472]LogBlueprintUserMessages: 0.661287
+[2015.08.28-09.41.50:543][473]LogBlueprintUserMessages: 0.651609
+[2015.08.28-09.41.50:559][474]LogBlueprintUserMessages: 0.641932
+[2015.08.28-09.41.50:575][475]LogBlueprintUserMessages: 0.632254
+[2015.08.28-09.41.50:591][476]LogBlueprintUserMessages: 0.622577
+[2015.08.28-09.41.50:608][477]LogBlueprintUserMessages: 0.612898
+[2015.08.28-09.41.50:624][478]LogBlueprintUserMessages: 0.60322
+[2015.08.28-09.41.50:640][479]LogBlueprintUserMessages: 0.593518
+[2015.08.28-09.41.50:656][480]LogBlueprintUserMessages: 0.583841
+[2015.08.28-09.41.50:672][481]LogBlueprintUserMessages: 0.574163
+[2015.08.28-09.41.50:688][482]LogBlueprintUserMessages: 0.564486
+[2015.08.28-09.41.50:704][483]LogBlueprintUserMessages: 0.554808
+[2015.08.28-09.41.50:720][484]LogBlueprintUserMessages: 0.545131
+[2015.08.28-09.41.50:737][485]LogBlueprintUserMessages: 0.535453
+[2015.08.28-09.41.50:752][486]LogBlueprintUserMessages: 0.525776
+[2015.08.28-09.41.50:768][487]LogBlueprintUserMessages: 0.516098
+[2015.08.28-09.41.50:785][488]LogBlueprintUserMessages: 0.506417
+[2015.08.28-09.41.50:801][489]LogBlueprintUserMessages: 0.49674
+[2015.08.28-09.41.50:817][490]LogBlueprintUserMessages: 0.487062
+[2015.08.28-09.41.50:833][491]LogBlueprintUserMessages: 0.477385
+[2015.08.28-09.41.50:849][492]LogBlueprintUserMessages: 0.467707
+[2015.08.28-09.41.50:865][493]LogBlueprintUserMessages: 0.45803
+[2015.08.28-09.41.50:882][494]LogBlueprintUserMessages: 0.448352
+[2015.08.28-09.41.50:898][495]LogBlueprintUserMessages: 0.438675
+[2015.08.28-09.41.50:914][496]LogBlueprintUserMessages: 0.428997
+[2015.08.28-09.41.50:930][497]LogBlueprintUserMessages: 0.419319
+[2015.08.28-09.41.50:946][498]LogBlueprintUserMessages: 0.409642
+[2015.08.28-09.41.50:962][499]LogBlueprintUserMessages: 0.399964
+[2015.08.28-09.41.50:978][500]LogBlueprintUserMessages: 0.390287
+[2015.08.28-09.41.50:995][501]LogBlueprintUserMessages: 0.380609
+[2015.08.28-09.41.51:011][502]LogBlueprintUserMessages: 0.370932
+[2015.08.28-09.41.51:027][503]LogBlueprintUserMessages: 0.361254
+[2015.08.28-09.41.51:043][504]LogBlueprintUserMessages: 0.351577
+[2015.08.28-09.41.51:059][505]LogBlueprintUserMessages: 0.341899
+[2015.08.28-09.41.51:075][506]LogBlueprintUserMessages: 0.332222
+[2015.08.28-09.41.51:091][507]LogBlueprintUserMessages: 0.322544
+[2015.08.28-09.41.51:108][508]LogBlueprintUserMessages: 0.312867
+[2015.08.28-09.41.51:124][509]LogBlueprintUserMessages: 0.303189
+[2015.08.28-09.41.51:140][510]LogBlueprintUserMessages: 0.293512
+[2015.08.28-09.41.51:156][511]LogBlueprintUserMessages: 0.283834
+[2015.08.28-09.41.51:172][512]LogBlueprintUserMessages: 0.274157
+[2015.08.28-09.41.53:704][669]LogBlueprintUserMessages: 0.990322
+[2015.08.28-09.41.53:704][669]LogBlueprintUserMessages: 0.990322
+[2015.08.28-09.41.53:704][669]LogBlueprintUserMessages: 0.980645
+[2015.08.28-09.41.53:720][670]LogBlueprintUserMessages: 0.970967
+[2015.08.28-09.41.53:737][671]LogBlueprintUserMessages: 0.96129
+[2015.08.28-09.41.53:753][672]LogBlueprintUserMessages: 0.951612
+[2015.08.28-09.41.53:769][673]LogBlueprintUserMessages: 0.941935
+[2015.08.28-09.41.53:785][674]LogBlueprintUserMessages: 0.932257
+[2015.08.28-09.41.53:801][675]LogBlueprintUserMessages: 0.92258
+[2015.08.28-09.41.53:817][676]LogBlueprintUserMessages: 0.912902
+[2015.08.28-09.41.53:834][677]LogBlueprintUserMessages: 0.903225
+[2015.08.28-09.41.53:850][678]LogBlueprintUserMessages: 0.893547
+[2015.08.28-09.41.53:866][679]LogBlueprintUserMessages: 0.88387
+[2015.08.28-09.41.53:881][680]LogBlueprintUserMessages: 0.874192
+[2015.08.28-09.41.53:898][681]LogBlueprintUserMessages: 0.864515
+[2015.08.28-09.41.53:914][682]LogBlueprintUserMessages: 0.854837
+[2015.08.28-09.41.53:930][683]LogBlueprintUserMessages: 0.84516
+[2015.08.28-09.41.53:946][684]LogBlueprintUserMessages: 0.835482
+[2015.08.28-09.41.53:962][685]LogBlueprintUserMessages: 0.825805
+[2015.08.28-09.41.53:978][686]LogBlueprintUserMessages: 0.816127
+[2015.08.28-09.41.53:995][687]LogBlueprintUserMessages: 0.80645
+[2015.08.28-09.41.54:010][688]LogBlueprintUserMessages: 0.796772
+[2015.08.28-09.41.54:027][689]LogBlueprintUserMessages: 0.787095
+[2015.08.28-09.41.54:043][690]LogBlueprintUserMessages: 0.777417
+[2015.08.28-09.41.54:059][691]LogBlueprintUserMessages: 0.76774
+[2015.08.28-09.41.54:075][692]LogBlueprintUserMessages: 0.758062
+[2015.08.28-09.41.54:091][693]LogBlueprintUserMessages: 0.748385
+[2015.08.28-09.41.54:107][694]LogBlueprintUserMessages: 0.738707
+[2015.08.28-09.41.54:124][695]LogBlueprintUserMessages: 0.72903
+[2015.08.28-09.41.54:140][696]LogBlueprintUserMessages: 0.719352
+[2015.08.28-09.41.54:156][697]LogBlueprintUserMessages: 0.709675
+[2015.08.28-09.41.54:172][698]LogBlueprintUserMessages: 0.699997
+[2015.08.28-09.41.54:188][699]LogBlueprintUserMessages: 0.69032
+[2015.08.28-09.41.54:204][700]LogBlueprintUserMessages: 0.680642
+[2015.08.28-09.41.54:220][701]LogBlueprintUserMessages: 0.670965
+[2015.08.28-09.41.54:237][702]LogBlueprintUserMessages: 0.661287
+[2015.08.28-09.41.54:253][703]LogBlueprintUserMessages: 0.65161
+[2015.08.28-09.41.54:269][704]LogBlueprintUserMessages: 0.641932
+[2015.08.28-09.41.54:285][705]LogBlueprintUserMessages: 0.632255
+[2015.08.28-09.41.54:301][706]LogBlueprintUserMessages: 0.622577
+[2015.08.28-09.41.54:317][707]LogBlueprintUserMessages: 0.6129
+[2015.08.28-09.41.54:333][708]LogBlueprintUserMessages: 0.603222
+[2015.08.28-09.41.54:349][709]LogBlueprintUserMessages: 0.593545
+[2015.08.28-09.41.54:366][710]LogBlueprintUserMessages: 0.583867
+[2015.08.28-09.41.54:382][711]LogBlueprintUserMessages: 0.57419
+[2015.08.28-09.41.54:398][712]LogBlueprintUserMessages: 0.564512
+[2015.08.28-09.41.54:414][713]LogBlueprintUserMessages: 0.554835
+[2015.08.28-09.41.54:430][714]LogBlueprintUserMessages: 0.545157
+[2015.08.28-09.41.54:446][715]LogBlueprintUserMessages: 0.53548
+[2015.08.28-09.41.54:462][716]LogBlueprintUserMessages: 0.525802
+[2015.08.28-09.41.54:478][717]LogBlueprintUserMessages: 0.516125
+[2015.08.28-09.41.54:495][718]LogBlueprintUserMessages: 0.506447
+[2015.08.28-09.41.54:511][719]LogBlueprintUserMessages: 0.49677
+[2015.08.28-09.41.54:527][720]LogBlueprintUserMessages: 0.487092
+[2015.08.28-09.41.54:543][721]LogBlueprintUserMessages: 0.477415
+[2015.08.28-09.41.54:559][722]LogBlueprintUserMessages: 0.467737
+[2015.08.28-09.41.54:575][723]LogBlueprintUserMessages: 0.45806
+[2015.08.28-09.41.54:591][724]LogBlueprintUserMessages: 0.448382
+[2015.08.28-09.41.54:607][725]LogBlueprintUserMessages: 0.438705
+[2015.08.28-09.41.54:624][726]LogBlueprintUserMessages: 0.429027
+[2015.08.28-09.41.54:640][727]LogBlueprintUserMessages: 0.41935
+[2015.08.28-09.41.54:656][728]LogBlueprintUserMessages: 0.409672
+[2015.08.28-09.41.54:672][729]LogBlueprintUserMessages: 0.399995
+[2015.08.28-09.41.54:688][730]LogBlueprintUserMessages: 0.390317
+[2015.08.28-09.41.54:704][731]LogBlueprintUserMessages: 0.38064
+[2015.08.28-09.41.54:721][732]LogBlueprintUserMessages: 0.370962
+[2015.08.28-09.41.54:736][733]LogBlueprintUserMessages: 0.361285
+[2015.08.28-09.41.54:752][734]LogBlueprintUserMessages: 0.351607
+[2015.08.28-09.41.54:769][735]LogBlueprintUserMessages: 0.34193
+[2015.08.28-09.41.54:785][736]LogBlueprintUserMessages: 0.332252
+[2015.08.28-09.41.54:801][737]LogBlueprintUserMessages: 0.322575
+[2015.08.28-09.41.54:817][738]LogBlueprintUserMessages: 0.312897
+[2015.08.28-09.41.54:833][739]LogBlueprintUserMessages: 0.303217
+[2015.08.28-09.41.54:849][740]LogBlueprintUserMessages: 0.293539
+[2015.08.28-09.41.54:865][741]LogBlueprintUserMessages: 0.283862
+[2015.08.28-09.41.54:881][742]LogBlueprintUserMessages: 0.274184
+[2015.08.28-09.41.54:898][743]LogBlueprintUserMessages: 0.264507
+[2015.08.28-09.41.54:914][744]LogBlueprintUserMessages: 0.254829
+[2015.08.28-09.41.56:979][872]LogBlueprintUserMessages: 0.990322
+[2015.08.28-09.41.56:979][872]LogBlueprintUserMessages: 0.990322
+[2015.08.28-09.41.56:979][872]LogBlueprintUserMessages: 0.980645
+[2015.08.28-09.41.56:995][873]LogBlueprintUserMessages: 0.970967
+[2015.08.28-09.41.57:011][874]LogBlueprintUserMessages: 0.96129
+[2015.08.28-09.41.57:027][875]LogBlueprintUserMessages: 0.951612
+[2015.08.28-09.41.57:043][876]LogBlueprintUserMessages: 0.941935
+[2015.08.28-09.41.57:059][877]LogBlueprintUserMessages: 0.932257
+[2015.08.28-09.41.57:075][878]LogBlueprintUserMessages: 0.92258
+[2015.08.28-09.41.57:091][879]LogBlueprintUserMessages: 0.912902
+[2015.08.28-09.41.57:107][880]LogBlueprintUserMessages: 0.903225
+[2015.08.28-09.41.57:123][881]LogBlueprintUserMessages: 0.893547
+[2015.08.28-09.41.57:140][882]LogBlueprintUserMessages: 0.88387
+[2015.08.28-09.41.57:156][883]LogBlueprintUserMessages: 0.874192
+[2015.08.28-09.41.57:172][884]LogBlueprintUserMessages: 0.864515
+[2015.08.28-09.41.57:188][885]LogBlueprintUserMessages: 0.854837
+[2015.08.28-09.41.57:205][886]LogBlueprintUserMessages: 0.84516
+[2015.08.28-09.41.57:221][887]LogBlueprintUserMessages: 0.835482
+[2015.08.28-09.41.57:237][888]LogBlueprintUserMessages: 0.825805
+[2015.08.28-09.41.57:253][889]LogBlueprintUserMessages: 0.816127
+[2015.08.28-09.41.57:269][890]LogBlueprintUserMessages: 0.80645
+[2015.08.28-09.41.57:285][891]LogBlueprintUserMessages: 0.796772
+[2015.08.28-09.41.57:301][892]LogBlueprintUserMessages: 0.787095
+[2015.08.28-09.41.57:317][893]LogBlueprintUserMessages: 0.777417
+[2015.08.28-09.41.57:333][894]LogBlueprintUserMessages: 0.76774
+[2015.08.28-09.41.57:349][895]LogBlueprintUserMessages: 0.758062
+[2015.08.28-09.41.57:365][896]LogBlueprintUserMessages: 0.748385
+[2015.08.28-09.41.57:381][897]LogBlueprintUserMessages: 0.738707
+[2015.08.28-09.41.57:398][898]LogBlueprintUserMessages: 0.72903
+[2015.08.28-09.41.57:414][899]LogBlueprintUserMessages: 0.719352
+[2015.08.28-09.41.57:430][900]LogBlueprintUserMessages: 0.709675
+[2015.08.28-09.41.57:447][901]LogBlueprintUserMessages: 0.699997
+[2015.08.28-09.41.57:463][902]LogBlueprintUserMessages: 0.69032
+[2015.08.28-09.41.57:479][903]LogBlueprintUserMessages: 0.680642
+[2015.08.28-09.41.57:495][904]LogBlueprintUserMessages: 0.670965
+[2015.08.28-09.41.57:511][905]LogBlueprintUserMessages: 0.661287
+[2015.08.28-09.41.57:527][906]LogBlueprintUserMessages: 0.65161
+[2015.08.28-09.41.57:543][907]LogBlueprintUserMessages: 0.641932
+[2015.08.28-09.41.57:559][908]LogBlueprintUserMessages: 0.632255
+[2015.08.28-09.41.57:575][909]LogBlueprintUserMessages: 0.622577
+[2015.08.28-09.41.57:591][910]LogBlueprintUserMessages: 0.6129
+[2015.08.28-09.41.57:607][911]LogBlueprintUserMessages: 0.603222
+[2015.08.28-09.41.57:624][912]LogBlueprintUserMessages: 0.593545
+[2015.08.28-09.41.57:640][913]LogBlueprintUserMessages: 0.583867
+[2015.08.28-09.41.57:656][914]LogBlueprintUserMessages: 0.57419
+[2015.08.28-09.41.57:672][915]LogBlueprintUserMessages: 0.564512
+[2015.08.28-09.41.57:688][916]LogBlueprintUserMessages: 0.554835
+[2015.08.28-09.41.57:704][917]LogBlueprintUserMessages: 0.545157
+[2015.08.28-09.41.57:721][918]LogBlueprintUserMessages: 0.53548
+[2015.08.28-09.41.57:737][919]LogBlueprintUserMessages: 0.525802
+[2015.08.28-09.41.57:753][920]LogBlueprintUserMessages: 0.516125
+[2015.08.28-09.41.57:769][921]LogBlueprintUserMessages: 0.506447
+[2015.08.28-09.41.57:785][922]LogBlueprintUserMessages: 0.49677
+[2015.08.28-09.41.57:801][923]LogBlueprintUserMessages: 0.487092
+[2015.08.28-09.41.57:817][924]LogBlueprintUserMessages: 0.477415
+[2015.08.28-09.41.57:834][925]LogBlueprintUserMessages: 0.467736
+[2015.08.28-09.41.57:850][926]LogBlueprintUserMessages: 0.458059
+[2015.08.28-09.41.57:866][927]LogBlueprintUserMessages: 0.448381
+[2015.08.28-09.41.57:882][928]LogBlueprintUserMessages: 0.438704
+[2015.08.28-09.41.57:897][929]LogBlueprintUserMessages: 0.429026
+[2015.08.28-09.41.57:914][930]LogBlueprintUserMessages: 0.419349
+[2015.08.28-09.41.57:930][931]LogBlueprintUserMessages: 0.409671
+[2015.08.28-09.41.57:946][932]LogBlueprintUserMessages: 0.399993
+[2015.08.28-09.41.57:962][933]LogBlueprintUserMessages: 0.390315
+[2015.08.28-09.41.57:979][934]LogBlueprintUserMessages: 0.380638
+[2015.08.28-09.41.57:995][935]LogBlueprintUserMessages: 0.37096
+[2015.08.28-09.41.58:011][936]LogBlueprintUserMessages: 0.361283
+[2015.08.28-09.41.58:027][937]LogBlueprintUserMessages: 0.351605
+[2015.08.28-09.41.58:043][938]LogBlueprintUserMessages: 0.341928
+[2015.08.28-09.41.58:059][939]LogBlueprintUserMessages: 0.33225
+[2015.08.28-09.41.58:076][940]LogBlueprintUserMessages: 0.322573
+[2015.08.28-09.41.58:092][941]LogBlueprintUserMessages: 0.312895
+[2015.08.28-09.41.58:108][942]LogBlueprintUserMessages: 0.303218
+[2015.08.28-09.41.58:124][943]LogBlueprintUserMessages: 0.29354
+[2015.08.28-09.41.58:140][944]LogBlueprintUserMessages: 0.283863
+[2015.08.28-09.41.58:155][945]LogBlueprintUserMessages: 0.274185
+[2015.08.28-09.41.58:172][946]LogBlueprintUserMessages: 0.264508
+[2015.08.28-09.41.58:188][947]LogBlueprintUserMessages: 0.25483
+[2015.08.28-09.42.21:247][374]Closing by request
+[2015.08.28-09.42.21:247][374]LogWindows: FPlatformMisc::RequestExit(0)
+[2015.08.28-09.42.22:086][375]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.08.28-09.42.22:093][375]LogExit: Preparing to exit.
+[2015.08.28-09.42.22:175][375]LogExit: Game engine shut down
+[2015.08.28-09.42.22:178][375]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000A8D5930860
+[2015.08.28-09.42.22:294][375]LogExit: Object subsystem successfully closed.
+[2015.08.28-09.42.22:306][375]LogD3D11RHI: Shutdown
+[2015.08.28-09.42.22:307][375]LogD3D11RHI: CleanupD3DDevice
+[2015.08.28-09.42.22:401][375]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.08.28-09.42.22:413][375]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (109)
+[2015.08.28-09.42.22:417][375]LogModuleManager: Shutting down and abandoning module AutomationWorker (108)
+[2015.08.28-09.42.22:417][375]LogModuleManager: Shutting down and abandoning module CharacterAI (107)
+[2015.08.28-09.42.22:417][375]LogModuleManager: Shutting down and abandoning module AITestSuite (106)
+[2015.08.28-09.42.22:417][375]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.08.28-09.42.22:417][375]LogModuleManager: Shutting down and abandoning module AIModule (104)
+[2015.08.28-09.42.22:417][375]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (103)
+[2015.08.28-09.42.22:417][375]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (102)
+[2015.08.28-09.42.22:417][375]LogModuleManager: Shutting down and abandoning module ProfilerService (101)
+[2015.08.28-09.42.22:603][375]LogModuleManager: Shutting down and abandoning module TaskGraph (100)
+[2015.08.28-09.42.22:603][375]LogModuleManager: Shutting down and abandoning module SlateRemote (99)
+[2015.08.28-09.42.22:603][375]LogModuleManager: Shutting down and abandoning module SteamVRController (98)
+[2015.08.28-09.42.22:603][375]LogModuleManager: Shutting down and abandoning module SteamVR (97)
+[2015.08.28-09.42.22:603][375]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (96)
+[2015.08.28-09.42.22:603][375]LogModuleManager: Shutting down and abandoning module OculusRift (95)
+[2015.08.28-09.42.22:603][375]LogModuleManager: Shutting down and abandoning module LeapMotionController (94)
+[2015.08.28-09.42.22:608][375]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (93)
+[2015.08.28-09.42.22:608][375]LogModuleManager: Shutting down and abandoning module CableComponent (92)
+[2015.08.28-09.42.22:608][375]LogModuleManager: Shutting down and abandoning module DesktopPlatform (91)
+[2015.08.28-09.42.22:608][375]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.08.28-09.42.22:608][375]LogModuleManager: Shutting down and abandoning module HotReload (89)
+[2015.08.28-09.42.22:608][375]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2015.08.28-09.42.22:608][375]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2015.08.28-09.42.22:608][375]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2015.08.28-09.42.22:608][375]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2015.08.28-09.42.22:609][375]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2015.08.28-09.42.22:609][375]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2015.08.28-09.42.22:609][375]LogModuleManager: Shutting down and abandoning module UdpMessaging (82)
+[2015.08.28-09.42.22:609][375]LogModuleManager: Shutting down and abandoning module AssetRegistry (81)
+[2015.08.28-09.42.22:609][375]LogModuleManager: Shutting down and abandoning module SubstanceCore (80)
+[2015.08.28-09.42.22:609][375]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.08.28-09.42.22:609][375]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.08.28-09.42.22:611][375]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.08.28-09.42.22:611][375]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.08.28-09.42.22:611][375]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.08.28-09.42.22:611][375]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.08.28-09.42.22:611][375]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.08.28-09.42.22:611][375]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.08.28-09.42.22:611][375]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.08.28-09.42.22:611][375]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.08.28-09.42.22:611][375]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.08.28-09.42.22:611][375]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.08.28-09.42.22:611][375]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.08.28-09.42.22:611][375]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.08.28-09.42.22:611][375]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.08.28-09.42.22:611][375]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.08.28-09.42.22:611][375]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.08.28-09.42.22:613][375]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.08.28-09.42.22:613][375]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.08.28-09.42.22:613][375]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.08.28-09.42.22:613][375]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.08.28-09.42.22:613][375]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.08.28-09.42.22:613][375]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.08.28-09.42.22:613][375]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.08.28-09.42.22:613][375]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.08.28-09.42.22:613][375]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.08.28-09.42.22:613][375]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.08.28-09.42.23:040][375]LogDerivedDataCache: Shutdown
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.08.28-09.42.23:040][375]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.08.28-09.42.23:041][375]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.08.28-09.42.23:041][375]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.08.28-09.42.23:041][375]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.08.28-09.42.23:041][375]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.08.28-09.42.23:041][375]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.08.28-09.42.23:041][375]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.08.28-09.42.23:041][375]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.08.28-09.42.23:041][375]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.08.28-09.42.23:041][375]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.08.28-09.42.23:041][375]LogExit: Exiting.
+[2015.08.28-09.42.23:043][375]Log file closed, 08/28/15 11:42:23

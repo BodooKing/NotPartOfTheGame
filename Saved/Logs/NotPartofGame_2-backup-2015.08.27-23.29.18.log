@@ -1,0 +1,229 @@
+﻿[2015.08.27-21.28.54:579][  0]Log file open, 08/27/15 23:28:54
+[2015.08.27-21.28.54:579][  0]LogInit:Display: Running engine for game: NotPartofGame
+[2015.08.27-21.28.54:579][  0]LogInit:Display: RandInit(1473849983) SRandInit(1473849983).
+[2015.08.27-21.28.54:579][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.08.27-21.28.54:579][  0]LogStats: Stats thread started
+[2015.08.27-21.28.54:579][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.08.27-21.28.54:579][  0]LogInit: API Version: 2579680
+[2015.08.27-21.28.54:579][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.08.27-21.28.54:579][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.08.27-21.28.54:579][  0]LogInit: Build Configuration: Development
+[2015.08.27-21.28.54:579][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.08.27-21.28.54:579][  0]LogInit: Command line:  /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+[2015.08.27-21.28.54:579][  0]LogInit: Base directory: C:/Users/Bodoo/Documents/Programmieren/4.8/Engine/Binaries/Win64/
+[2015.08.27-21.28.54:579][  0]LogInit: Rocket: 1
+[2015.08.27-21.28.54:598][  0]LogInit: Using libcurl 7.41.0
+[2015.08.27-21.28.54:599][  0]LogInit:  - built for x86_64-pc-win32
+[2015.08.27-21.28.54:599][  0]LogInit:  - supports SSL with WinSSL
+[2015.08.27-21.28.54:599][  0]LogInit:  - other features:
+[2015.08.27-21.28.54:599][  0]LogInit:      CURL_VERSION_SSL
+[2015.08.27-21.28.54:599][  0]LogInit:      CURL_VERSION_IPV6
+[2015.08.27-21.28.54:599][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.08.27-21.28.54:599][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.08.27-21.28.54:599][  0]LogInit:      CURL_VERSION_IDN
+[2015.08.27-21.28.54:599][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.08.27-21.28.54:599][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.08.27-21.28.54:599][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.08.27-21.28.54:599][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.08.27-21.28.54:599][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.08.27-21.28.54:617][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.08.27-21.28.54:634][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.08.27-21.28.54:645][  0]LogInit: Object subsystem initialized
+[2015.08.27-21.28.54:646][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2015.08.27-21.28.54:646][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Bodoo/Documents/Programmieren/Projekte/NotPartofTheGame/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.08.27-21.28.54:646][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set ('Scalability' has a lower priority than 'ProjectSetting')
+[2015.08.27-21.28.54:646][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.27-21.28.54:646][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.08.27-21.28.54:649][  0]LogInit: Computer: DESKTOP-GLF6O4V
+[2015.08.27-21.28.54:649][  0]LogInit: User: Bodoo
+[2015.08.27-21.28.54:649][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.08.27-21.28.54:649][  0]LogInit: High frequency timer resolution =3.215356 MHz
+[2015.08.27-21.28.54:649][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2015.08.27-21.28.54:649][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.27-21.28.54:649][  0]LogMemory: Process Physical Memory: 50.27 MB used, 50.27 MB peak
+[2015.08.27-21.28.54:649][  0]LogMemory: Process Virtual Memory: 22.71 MB used, 22.71 MB peak
+[2015.08.27-21.28.54:649][  0]LogMemory: Physical Memory: 3565.36 MB used, 12270.70 MB total
+[2015.08.27-21.28.54:649][  0]LogMemory: Virtual Memory: 310.49 MB used, 134217728.00 MB total
+[2015.08.27-21.28.54:679][  0]LogTextLocalizationManager: The requested culture ('de_DE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.08.27-21.28.54:982][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Users/Bodoo/Documents/Programmieren/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Users/Bodoo/Documents/Programmieren/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.08.27-21.28.55:390][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6800 Series (Feature Level 11_0)
+[2015.08.27-21.28.55:390][  0]LogD3D11RHI: Adapter has 1011MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2015.08.27-21.28.55:392][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.08.27-21.28.55:392][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 6135MB of shared system memory, 0 output[s]
+[2015.08.27-21.28.55:392][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.08.27-21.28.55:395][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.27-21.28.55:395][  0]LogD3D11RHI: !Direct3DDevice
+[2015.08.27-21.28.55:395][  0]LogRHI: Texture pool is 708 MB (70% of 1011 MB)
+[2015.08.27-21.28.55:401][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.08.27-21.28.55:412][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.08.27-21.28.56:275][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.08.27-21.28.56:291][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.08.27-21.28.56:308][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.08.27-21.28.56:323][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.08.27-21.28.56:342][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.08.27-21.28.56:356][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.08.27-21.28.56:369][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.08.27-21.28.56:383][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.08.27-21.28.56:397][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.08.27-21.28.56:411][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.08.27-21.28.56:426][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.08.27-21.28.56:441][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.08.27-21.28.56:493][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.08.27-21.28.56:506][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.08.27-21.28.56:520][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.08.27-21.28.56:537][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.08.27-21.28.56:537][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.08.27-21.28.56:772][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.08.27-21.28.56:842][  0]LogDerivedDataCache: Loaded boot cache 0.07s 53MB C:/Users/Bodoo/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.08.27-21.28.56:842][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Bodoo/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.08.27-21.28.56:843][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Projekte/NotPartofTheGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.08.27-21.28.56:843][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.08.27-21.28.56:843][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Projekte/NotPartofTheGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.08.27-21.28.56:843][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.08.27-21.28.57:002][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.08.27-21.28.57:014][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bodoo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.08.27-21.28.57:264][  0]LogInit: Selected Device Profile: [Windows]
+[2015.08.27-21.28.57:358][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.27-21.28.57:358][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.08.27-21.28.57:388][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.08.27-21.28.57:388][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.08.27-21.28.57:701][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.08.27-21.28.58:186][  0]LogD3D11RHI: InitD3DDevice
+[2015.08.27-21.28.58:190][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../Projekte/NotPartofTheGame/Content/Movies/Default_Startup.mp4
+[2015.08.27-21.28.58:339][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2015.08.27-21.28.58:389][  0]SourceControl: Info Source control is disabled
+[2015.08.27-21.28.58:389][  0]SourceControl: Info Source control is disabled
+[2015.08.27-21.28.58:400][  0]SourceControl: Info Source control is disabled
+[2015.08.27-21.28.58:610][  0]LogObj: 25913 objects as part of root set at end of initial load.
+[2015.08.27-21.28.58:610][  0]LogUObjectAllocator: 5218488 out of 0 bytes used by permanent object pool.
+[2015.08.27-21.28.58:683][  0]LogAutomationTest:Warning: ERR: Transient text cannot be serialized "Testing Transient serialization detection".
+[2015.08.27-21.28.58:683][  0]LogEngine: Initializing Engine...
+[2015.08.27-21.28.58:685][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.08.27-21.28.58:686][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.08.27-21.28.58:785][  0]LogInit: XAudio2 using 'Lautsprecher (G510s Gaming Keyboard)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.08.27-21.28.58:792][  0]LogInit: FAudioDevice initialized.
+[2015.08.27-21.28.58:803][  0]LogInit: Texture streaming: Disabled
+[2015.08.27-21.28.58:871][  0]LogNet: Browse: /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level?Name=Player
+[2015.08.27-21.28.58:871][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level?Name=Player
+[2015.08.27-21.28.58:883][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000006DC1F47560
+[2015.08.27-21.28.58:894][  0]LogMemory: Platform Memory Stats for Windows
+[2015.08.27-21.28.58:894][  0]LogMemory: Process Physical Memory: 334.02 MB used, 334.02 MB peak
+[2015.08.27-21.28.58:894][  0]LogMemory: Process Virtual Memory: 371.63 MB used, 371.63 MB peak
+[2015.08.27-21.28.58:894][  0]LogMemory: Physical Memory: 3795.49 MB used, 12270.70 MB total
+[2015.08.27-21.28.58:894][  0]LogMemory: Virtual Memory: 889.56 MB used, 134217728.00 MB total
+[2015.08.27-21.28.58:894][  0]LogMemory: 
+[2015.08.27-21.28.58:894][  0]Allocator Stats for TBB: (not implemented)
+[2015.08.27-21.28.59:883][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Roll".
+[2015.08.27-21.28.59:883][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Yaw".
+[2015.08.27-21.28.59:883][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Pitch".
+[2015.08.27-21.28.59:883][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Roll".
+[2015.08.27-21.28.59:883][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Yaw".
+[2015.08.27-21.28.59:883][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Pitch".
+[2015.08.27-21.28.59:939][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Roll".
+[2015.08.27-21.28.59:939][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Yaw".
+[2015.08.27-21.28.59:939][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Pitch".
+[2015.08.27-21.28.59:939][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Roll".
+[2015.08.27-21.28.59:939][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Yaw".
+[2015.08.27-21.28.59:939][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Pitch".
+[2015.08.27-21.29.00:869][  0]LogAIModule: Creating AISystem for world Testing_Level
+[2015.08.27-21.29.00:869][  0]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.08.27-21.29.00:941][  0]LogWorld: Bringing World /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level up for play (max tick rate 0) at 2015.08.27-23.29.00
+[2015.08.27-21.29.00:955][  0]LogWorld: Bringing up level for play took: 0.084090
+[2015.08.27-21.29.00:960][  0]LogInit:Display: Game Engine Initialized.
+[2015.08.27-21.29.01:186][  0]LogLoad: Full Startup: 8.69 seconds (BP compile: 1.06 seconds)
+[2015.08.27-21.29.01:205][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2015.08.27-21.29.01:340][  0]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:2).
+[2015.08.27-21.29.04:187][167]LogBlueprintUserMessages: 0.994835
+[2015.08.27-21.29.04:188][167]LogBlueprintUserMessages: 0.994835
+[2015.08.27-21.29.04:188][167]LogBlueprintUserMessages: 0.994835
+[2015.08.27-21.29.04:188][167]LogBlueprintUserMessages: 0.994835
+[2015.08.27-21.29.04:188][167]LogBlueprintUserMessages: 0.994835
+[2015.08.27-21.29.04:204][168]LogBlueprintUserMessages: 0.999789
+[2015.08.27-21.29.04:204][168]LogBlueprintUserMessages: 0.999789
+[2015.08.27-21.29.04:204][168]LogBlueprintUserMessages: 0.999789
+[2015.08.27-21.29.04:204][168]LogBlueprintUserMessages: 0.999789
+[2015.08.27-21.29.04:204][168]LogBlueprintUserMessages: 0.999789
+[2015.08.27-21.29.04:220][169]LogBlueprintUserMessages: 0.994412
+[2015.08.27-21.29.04:220][169]LogBlueprintUserMessages: 0.994412
+[2015.08.27-21.29.04:220][169]LogBlueprintUserMessages: 0.994412
+[2015.08.27-21.29.04:220][169]LogBlueprintUserMessages: 0.994412
+[2015.08.27-21.29.04:220][169]LogBlueprintUserMessages: 0.994412
+[2015.08.27-21.29.07:182][352]LogBlueprintUserMessages: 0.006888
+[2015.08.27-21.29.07:182][352]LogBlueprintUserMessages: 0.006888
+[2015.08.27-21.29.07:182][352]LogBlueprintUserMessages: 0.006888
+[2015.08.27-21.29.07:182][352]LogBlueprintUserMessages: 0.006888
+[2015.08.27-21.29.07:182][352]LogBlueprintUserMessages: 0.006888
+[2015.08.27-21.29.07:198][353]LogBlueprintUserMessages: 0.001512
+[2015.08.27-21.29.07:198][353]LogBlueprintUserMessages: 0.001512
+[2015.08.27-21.29.07:198][353]LogBlueprintUserMessages: 0.001512
+[2015.08.27-21.29.07:198][353]LogBlueprintUserMessages: 0.001512
+[2015.08.27-21.29.07:198][353]LogBlueprintUserMessages: 0.001512
+[2015.08.27-21.29.07:214][354]LogBlueprintUserMessages: 0.0
+[2015.08.27-21.29.07:214][354]LogBlueprintUserMessages: 0.0
+[2015.08.27-21.29.07:214][354]LogBlueprintUserMessages: 0.003865
+[2015.08.27-21.29.07:214][354]LogBlueprintUserMessages: 0.0
+[2015.08.27-21.29.07:214][354]LogBlueprintUserMessages: 0.0
+[2015.08.27-21.29.07:214][354]LogBlueprintUserMessages: 0.003865
+[2015.08.27-21.29.07:214][354]LogBlueprintUserMessages: 0.0
+[2015.08.27-21.29.07:214][354]LogBlueprintUserMessages: 0.0
+[2015.08.27-21.29.07:214][354]LogBlueprintUserMessages: 0.003865
+[2015.08.27-21.29.07:214][354]LogBlueprintUserMessages: 0.0
+[2015.08.27-21.29.07:214][354]LogBlueprintUserMessages: 0.0
+[2015.08.27-21.29.07:214][354]LogBlueprintUserMessages: 0.003865
+[2015.08.27-21.29.07:215][354]LogBlueprintUserMessages: 0.0
+[2015.08.27-21.29.07:215][354]LogBlueprintUserMessages: 0.0
+[2015.08.27-21.29.07:215][354]LogBlueprintUserMessages: 0.003865
+[2015.08.27-21.29.07:230][355]LogBlueprintUserMessages: 0.009241
+[2015.08.27-21.29.07:230][355]LogBlueprintUserMessages: 0.009241
+[2015.08.27-21.29.07:230][355]LogBlueprintUserMessages: 0.009241
+[2015.08.27-21.29.07:230][355]LogBlueprintUserMessages: 0.009241
+[2015.08.27-21.29.07:230][355]LogBlueprintUserMessages: 0.009241
+[2015.08.27-21.29.10:184][538]LogBlueprintUserMessages: 0.993782
+[2015.08.27-21.29.10:184][538]LogBlueprintUserMessages: 0.993782
+[2015.08.27-21.29.10:184][538]LogBlueprintUserMessages: 0.993782
+[2015.08.27-21.29.10:184][538]LogBlueprintUserMessages: 0.993782
+[2015.08.27-21.29.10:184][538]LogBlueprintUserMessages: 0.993782
+[2015.08.27-21.29.10:200][539]LogBlueprintUserMessages: 0.999159
+[2015.08.27-21.29.10:200][539]LogBlueprintUserMessages: 0.999159
+[2015.08.27-21.29.10:200][539]LogBlueprintUserMessages: 0.999159
+[2015.08.27-21.29.10:200][539]LogBlueprintUserMessages: 0.999159
+[2015.08.27-21.29.10:200][539]LogBlueprintUserMessages: 0.999159
+[2015.08.27-21.29.10:216][540]LogBlueprintUserMessages: 0.995465
+[2015.08.27-21.29.10:216][540]LogBlueprintUserMessages: 0.995465
+[2015.08.27-21.29.10:216][540]LogBlueprintUserMessages: 0.995465
+[2015.08.27-21.29.10:216][540]LogBlueprintUserMessages: 0.995465
+[2015.08.27-21.29.10:216][540]LogBlueprintUserMessages: 0.995465
+[2015.08.27-21.29.10:232][541]LogBlueprintUserMessages: 0.990088
+[2015.08.27-21.29.10:232][541]LogBlueprintUserMessages: 0.990088
+[2015.08.27-21.29.10:232][541]LogBlueprintUserMessages: 0.990088
+[2015.08.27-21.29.10:232][541]LogBlueprintUserMessages: 0.990088
+[2015.08.27-21.29.10:232][541]LogBlueprintUserMessages: 0.990088
+[2015.08.27-21.29.13:175][723]LogBlueprintUserMessages: 0.009065
+[2015.08.27-21.29.13:175][723]LogBlueprintUserMessages: 0.009065
+[2015.08.27-21.29.13:176][723]LogBlueprintUserMessages: 0.009065
+[2015.08.27-21.29.13:176][723]LogBlueprintUserMessages: 0.009065
+[2015.08.27-21.29.13:176][723]LogBlueprintUserMessages: 0.009065
+[2015.08.27-21.29.13:191][724]LogBlueprintUserMessages: 0.003684
+[2015.08.27-21.29.13:191][724]LogBlueprintUserMessages: 0.003684
+[2015.08.27-21.29.13:192][724]LogBlueprintUserMessages: 0.003684
+[2015.08.27-21.29.13:192][724]LogBlueprintUserMessages: 0.003684
+[2015.08.27-21.29.13:192][724]LogBlueprintUserMessages: 0.003684
+[2015.08.27-21.29.13:208][725]LogBlueprintUserMessages: 0.0
+[2015.08.27-21.29.13:208][725]LogBlueprintUserMessages: 0.0
+[2015.08.27-21.29.13:208][725]LogBlueprintUserMessages: 0.001693
+[2015.08.27-21.29.13:208][725]LogBlueprintUserMessages: 0.0
+[2015.08.27-21.29.13:208][725]LogBlueprintUserMessages: 0.0
+[2015.08.27-21.29.13:209][725]LogBlueprintUserMessages: 0.001693
+[2015.08.27-21.29.13:209][725]LogBlueprintUserMessages: 0.0
+[2015.08.27-21.29.13:209][725]LogBlueprintUserMessages: 0.0
+[2015.08.27-21.29.13:209][725]LogBlueprintUserMessages: 0.001693
+[2015.08.27-21.29.13:209][725]LogBlueprintUserMessages: 0.0
+[2015.08.27-21.29.13:209][725]LogBlueprintUserMessages: 0.0
+[2015.08.27-21.29.13:209][725]LogBlueprintUserMessages: 0.001693
+[2015.08.27-21.29.13:209][725]LogBlueprintUserMessages: 0.0
+[2015.08.27-21.29.13:209][725]LogBlueprintUserMessages: 0.0
+[2015.08.27-21.29.13:209][725]LogBlueprintUserMessages: 0.001693
+[2015.08.27-21.29.13:224][726]LogBlueprintUserMessages: 0.007069
+[2015.08.27-21.29.13:224][726]LogBlueprintUserMe
