@@ -1,0 +1,605 @@
+﻿[2015.09.04-18.03.00:984][  0]Log file open, 09/04/15 20:03:00
+[2015.09.04-18.03.00:984][  0]LogInit:Display: Running engine for game: NotPartofGame
+[2015.09.04-18.03.00:984][  0]LogInit:Display: RandInit(372508271) SRandInit(372508272).
+[2015.09.04-18.03.00:984][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.04-18.03.00:984][  0]LogStats: Stats thread started
+[2015.09.04-18.03.00:984][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.09.04-18.03.00:984][  0]LogInit: API Version: 2579680
+[2015.09.04-18.03.00:984][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.09.04-18.03.00:984][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.04-18.03.00:984][  0]LogInit: Build Configuration: Development
+[2015.09.04-18.03.00:984][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.09.04-18.03.00:984][  0]LogInit: Command line: 
+[2015.09.04-18.03.00:984][  0]LogInit: Base directory: C:/Users/Bodoo/Documents/Programmieren/4.8/Engine/Binaries/Win64/
+[2015.09.04-18.03.00:984][  0]LogInit: Rocket: 1
+[2015.09.04-18.03.01:024][  0]LogInit: Using libcurl 7.41.0
+[2015.09.04-18.03.01:024][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.04-18.03.01:024][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.04-18.03.01:024][  0]LogInit:  - other features:
+[2015.09.04-18.03.01:024][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.04-18.03.01:024][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.04-18.03.01:024][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.04-18.03.01:024][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.04-18.03.01:024][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.04-18.03.01:024][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.04-18.03.01:024][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.04-18.03.01:024][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.04-18.03.01:024][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.04-18.03.01:024][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.04-18.03.01:036][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.09.04-18.03.01:077][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.04-18.03.01:086][  0]LogInit: Object subsystem initialized
+[2015.09.04-18.03.01:087][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2015.09.04-18.03.01:087][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Bodoo/Documents/Programmieren/Projekte/NotPartofTheGame/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.04-18.03.01:088][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set ('Scalability' has a lower priority than 'ProjectSetting')
+[2015.09.04-18.03.01:088][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.04-18.03.01:088][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.04-18.03.01:112][  0]LogInit: Computer: DESKTOP-GLF6O4V
+[2015.09.04-18.03.01:112][  0]LogInit: User: Bodoo
+[2015.09.04-18.03.01:112][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.04-18.03.01:112][  0]LogInit: High frequency timer resolution =3.215355 MHz
+[2015.09.04-18.03.01:112][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2015.09.04-18.03.01:112][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.04-18.03.01:112][  0]LogMemory: Process Physical Memory: 51.20 MB used, 51.20 MB peak
+[2015.09.04-18.03.01:112][  0]LogMemory: Process Virtual Memory: 22.53 MB used, 22.53 MB peak
+[2015.09.04-18.03.01:112][  0]LogMemory: Physical Memory: 1607.99 MB used, 12270.70 MB total
+[2015.09.04-18.03.01:112][  0]LogMemory: Virtual Memory: 309.63 MB used, 134217728.00 MB total
+[2015.09.04-18.03.01:321][  0]LogTextLocalizationManager: The requested culture ('de_DE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.09.04-18.03.01:600][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Users/Bodoo/Documents/Programmieren/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Users/Bodoo/Documents/Programmieren/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.09.04-18.03.02:080][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6800 Series (Feature Level 11_0)
+[2015.09.04-18.03.02:080][  0]LogD3D11RHI: Adapter has 1011MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2015.09.04-18.03.02:081][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.04-18.03.02:081][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 6135MB of shared system memory, 0 output[s]
+[2015.09.04-18.03.02:081][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.04-18.03.02:084][  0]LogD3D11RHI: InitD3DDevice
+[2015.09.04-18.03.02:084][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.04-18.03.02:084][  0]LogRHI: Texture pool is 708 MB (70% of 1011 MB)
+[2015.09.04-18.03.02:090][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.09.04-18.03.02:101][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.04-18.03.03:387][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.09.04-18.03.03:402][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.04-18.03.03:416][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.04-18.03.03:430][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.04-18.03.03:446][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.04-18.03.03:460][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.04-18.03.03:473][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.04-18.03.03:486][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.04-18.03.03:499][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.04-18.03.03:512][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.04-18.03.03:525][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.04-18.03.03:538][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.04-18.03.03:609][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.04-18.03.03:622][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.04-18.03.03:634][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.04-18.03.03:651][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.04-18.03.03:651][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.04-18.03.04:050][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.04-18.03.04:111][  0]LogDerivedDataCache: Loaded boot cache 0.06s 53MB C:/Users/Bodoo/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.09.04-18.03.04:111][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Bodoo/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.09.04-18.03.04:111][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Projekte/NotPartofTheGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.04-18.03.04:111][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.04-18.03.04:111][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Projekte/NotPartofTheGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.04-18.03.04:111][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.04-18.03.04:265][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.04-18.03.04:277][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bodoo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.04-18.03.06:984][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.04-18.03.07:093][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.09.04-18.03.07:094][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.09.04-18.03.07:132][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.04-18.03.07:132][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.04-18.03.07:646][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.04-18.03.09:328][  0]LogAssetRegistry: FAssetRegistry took 0.0107 seconds to start up
+[2015.09.04-18.03.09:342][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.09.04-18.03.09:356][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.04-18.03.09:834][  0]SourceControl: Info Source control is disabled
+[2015.09.04-18.03.09:870][  0]SourceControl: Info Source control is disabled
+[2015.09.04-18.03.09:881][  0]SourceControl: Info Source control is disabled
+[2015.09.04-18.03.09:894][  0]SourceControl: Info Source control is disabled
+[2015.09.04-18.03.10:237][  0]LogObj: 26440 objects as part of root set at end of initial load.
+[2015.09.04-18.03.10:237][  0]LogUObjectAllocator: 5438864 out of 0 bytes used by permanent object pool.
+[2015.09.04-18.03.10:323][  0]LogEngine: Initializing Engine...
+[2015.09.04-18.03.10:325][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.04-18.03.10:335][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.09.04-18.03.10:591][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.04-18.03.10:596][  0]LogInit: XAudio2 using 'Lautsprecher (G510s Gaming Keyboard)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.09.04-18.03.10:602][  0]LogInit: FAudioDevice initialized.
+[2015.09.04-18.03.10:631][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/Bodoo/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.09.04-18.03.10:642][  0]LogInit: Texture streaming: Disabled
+[2015.09.04-18.03.10:669][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.04-18.03.10:669][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.09.04-18.03.10:669][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 0359330b4a4de6cf49a2cc9879aa4f35||823e2c57-8ae8-4d61-a04c-15505c18bf02
+[2015.09.04-18.03.10:669][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.04-18.03.10:694][  0]LogInit: Transaction tracking system initialized
+[2015.09.04-18.03.10:829][  0]BlueprintLog: New page: Editor Load
+[2015.09.04-18.03.11:505][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.09.04-18.03.11:505][  0]LogConsoleResponse:Display: 
+[2015.09.04-18.03.11:693][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.04-18.03.11:887][  0]SourceControl: Info Source control is disabled
+[2015.09.04-18.03.11:887][  0]Cmd: MAP LOAD FILE="../../../../Projekte/NotPartofTheGame/Content/NPOTG/Maps/Testing_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.04-18.03.11:890][  0]LightingResults: New page: Lighting Build
+[2015.09.04-18.03.11:902][  0]MapCheck: New page: Map Check
+[2015.09.04-18.03.11:902][  0]LightingResults: New page: Lighting Build
+[2015.09.04-18.03.11:911][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F957572F20
+[2015.09.04-18.03.15:038][  0]LogAIModule: Creating AISystem for world Testing_Level
+[2015.09.04-18.03.15:040][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.PlayerStart.CollisionCapsule)
+[2015.09.04-18.03.15:146][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.04-18.03.15:149][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.04-18.03.15:223][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 73.753ms to complete.
+[2015.09.04-18.03.15:223][  0]LogFileHelpers: Loading map 'Testing_Level' took 3.336
+[2015.09.04-18.03.15:340][  0]LogCollectionManager: Loaded 0 collections in 0.001827 seconds
+[2015.09.04-18.03.15:347][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 1807 classes and 307 folders.
+[2015.09.04-18.03.15:392][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.09.04-18.03.15:482][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.04-18.03.15:498][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.09.04-18.03.15:591][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.04-18.03.15:592][  0]LogD3D11RHI: InitD3DDevice
+[2015.09.04-18.03.15:594][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.04-18.03.15:616][  0]LogLoad: Full Startup: 16.68 seconds (BP compile: 1.52 seconds)
+[2015.09.04-18.03.16:057][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.04-18.03.16:106][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.09.04-18.03.16:336][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.09.04-18.03.18:912][  8]LogAssetRegistry: Asset discovery search completed in 9.5953 seconds
+[2015.09.04-19.02.42:424][705]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.03.01:773][239]LogEditorViewport: Clicking on Actor (LMB): wolf_C (wolf8)
+[2015.09.04-19.03.10:734][ 38]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.03.11:628][143]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.03.11:657][143]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.03.11:691][143]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.04-19.03.11:809][143]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.04-19.04.16:636][903]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.04.25:651][442]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.04.26:716][442]LogSavePackage: Save=561.517456ms
+[2015.09.04-19.04.26:716][442]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/Testing_Level_Auto1914373BC494CBF3E2E43A0A6371BE8AB.tmp' to '../../../../Projekte/NotPartofTheGame/Saved/Autosaves/Game/NPOTG/Maps/Testing_Level_Auto1.umap'
+[2015.09.04-19.04.26:723][442]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NPOTG/Maps/Testing_Level' took 0.947
+[2015.09.04-19.04.26:723][442]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.947
+[2015.09.04-19.04.26:731][442]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NPOTG/Blueprints/Charaktere/wolf] ([1] browsable assets)...
+[2015.09.04-19.04.26:731][442]OBJ SavePackage: Finished generating thumbnails for package [/Game/NPOTG/Blueprints/Charaktere/wolf]
+[2015.09.04-19.04.26:932][442]LogSavePackage: Save=146.946136ms
+[2015.09.04-19.04.26:932][442]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/wolf_Auto189027F9847107EA8C845E5BB4211032F.tmp' to '../../../../Projekte/NotPartofTheGame/Saved/Autosaves/Game/NPOTG/Blueprints/Charaktere/wolf_Auto1.uasset'
+[2015.09.04-19.04.26:933][442]LogFileHelpers: Auto-saving content packages took 0.206
+[2015.09.04-19.05.07:850][ 31]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.05.11:028][254]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.05.20:837][943]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.05.22:982][ 92]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.05.26:246][278]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.05.30:981][590]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.05.33:278][748]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.05.35:704][916]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.05.38:168][ 83]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.05.42:698][413]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.06.00:243][523]BlueprintLog: New page: Compile wolf
+[2015.09.04-19.06.00:528][523]BlueprintEditorCompileResults: Info [3781.60] Compile of wolf successful! [in 285 ms]
+[2015.09.04-19.06.03:815][734]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.06.05:116][827]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.06.07:135][964]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.06.07:597][995]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.06.09:009][ 88]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.06.10:826][209]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.06.12:763][338]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.06.14:820][474]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.06.21:923][957]BlueprintLog: New page: Compile wolf
+[2015.09.04-19.06.22:114][957]BlueprintEditorCompileResults: Info [3803.18] Compile of wolf successful! [in 189 ms]
+[2015.09.04-19.06.24:127][ 84]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.06.24:151][ 84]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPOTG/Blueprints/Charaktere/wolf" FILE="../../../../Projekte/NotPartofTheGame/Content/NPOTG/Blueprints/Charaktere/wolf.uasset" SILENT=true
+[2015.09.04-19.06.24:362][ 84]LogSavePackage: Save=159.668533ms
+[2015.09.04-19.06.24:362][ 84]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/wolf78B9C32042BA2089C3A454AB2BB13668.tmp' to '../../../../Projekte/NotPartofTheGame/Content/NPOTG/Blueprints/Charaktere/wolf.uasset'
+[2015.09.04-19.06.31:528][764]LogEditorViewport: Clicking Background
+[2015.09.04-19.06.34:570][ 59]LogEditorViewport: Clicking on Actor (LMB): wolf_C (wolf8)
+[2015.09.04-19.06.35:652][150]LogEditorViewport: Clicking Background
+[2015.09.04-19.06.38:622][321]LogEditorViewport: Clicking on Actor (LMB): wolf_C (wolf7)
+[2015.09.04-19.06.48:026][146]LogEditorViewport: Clicking on Actor (LMB): wolf_C (wolf9)
+[2015.09.04-19.06.49:345][278]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.06.57:984][192]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.06.58:648][192]LogSavePackage: Save=585.166199ms
+[2015.09.04-19.06.58:648][192]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/UEDPCTesting_Level32A738CC46CEB841ADEAEABD39AD67E9.tmp' to '../../../../Projekte/NotPartofTheGame/Saved/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.umap'
+[2015.09.04-19.08.19:477][220]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.08.20:155][220]LogSavePackage: Save=609.371277ms
+[2015.09.04-19.08.20:155][220]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/UEDPCTesting_Level0A776E6B4FEAE9954C21DDAFDCC3A4E6.tmp' to '../../../../Projekte/NotPartofTheGame/Saved/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.umap'
+[2015.09.04-19.08.49:038][926]LogEditorViewport: Clicking on Actor (LMB): wolf_C (wolf7)
+[2015.09.04-19.08.51:348][192]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.09.04-19.08.56:824][839]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.09.04-19.08.58:639][ 46]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.09.04-19.08.59:841][178]LogPrimitiveComponent: Zero scaling not supported (/Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.PlayerStart.CollisionCapsule)
+[2015.09.04-19.09.03:980][651]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.09.04:646][651]LogSavePackage: Save=603.842834ms
+[2015.09.04-19.09.04:647][651]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/UEDPCTesting_Level9CDB39D94E2C95E4E8CB0EAD3C347A20.tmp' to '../../../../Projekte/NotPartofTheGame/Saved/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.umap'
+[2015.09.04-19.09.20:689][240]LogPrimitiveComponent: Zero scaling not supported (/Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.PlayerStart.CollisionCapsule)
+[2015.09.04-19.09.28:738][198]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.09.04-19.09.30:690][422]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.09.04-19.09.31:036][455]LogEditorViewport: Clicking Background
+[2015.09.04-19.09.36:144][ 47]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.09.36:157][ 47]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.09.38:058][126]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.09.41:967][376]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.09.42:688][423]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.09.55:405][529]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.10.01:462][ 35]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (tileset_Sprite1229)
+[2015.09.04-19.10.06:535][457]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.09.04-19.10.09:973][766]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.09.04-19.10.12:579][998]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.09.04-19.10.15:813][284]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.09.04-19.10.17:032][377]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.10.18:250][377]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.10.18:275][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPOTG/Blueprints/Charaktere/Markimoo" FILE="../../../../Projekte/NotPartofTheGame/Content/NPOTG/Blueprints/Charaktere/Markimoo.uasset" SILENT=true
+[2015.09.04-19.10.18:588][377]LogSavePackage: Save=259.309479ms
+[2015.09.04-19.10.18:588][377]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/MarkimooE066F3FA4C29C28AAB7B9AA8A1A6D5BA.tmp' to '../../../../Projekte/NotPartofTheGame/Content/NPOTG/Blueprints/Charaktere/Markimoo.uasset'
+[2015.09.04-19.10.18:631][377]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.10.19:287][377]LogSavePackage: Save=578.231934ms
+[2015.09.04-19.10.19:287][377]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/UEDPCTesting_LevelBAC7E3474EB789BFFC810BB8E7D25D9E.tmp' to '../../../../Projekte/NotPartofTheGame/Saved/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.umap'
+[2015.09.04-19.10.48:364][246]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.09.04-19.10.49:276][300]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F94BE993A0
+[2015.09.04-19.10.49:298][300]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.10.49:984][300]LogSavePackage: Save=609.018311ms
+[2015.09.04-19.10.49:984][300]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/UEDPCTesting_Level900DED3946E0C78F338E02AD0D850253.tmp' to '../../../../Projekte/NotPartofTheGame/Saved/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.umap'
+[2015.09.04-19.11.48:228][803]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.11.48:902][803]LogSavePackage: Save=593.178650ms
+[2015.09.04-19.11.48:902][803]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/UEDPCTesting_Level2707C477462213C88D5B7B9CAF1A7A9E.tmp' to '../../../../Projekte/NotPartofTheGame/Saved/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.umap'
+[2015.09.04-19.12.20:006][230]LogEditorViewport: Clicking on Actor (LMB): wolf_C (wolf8)
+[2015.09.04-19.12.26:926][869]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (pointB_Sprite8)
+[2015.09.04-19.12.29:868][116]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (pointA_Sprite11)
+[2015.09.04-19.12.32:233][300]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.12.32:910][300]LogSavePackage: Save=587.742859ms
+[2015.09.04-19.12.32:910][300]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/UEDPCTesting_LevelAA7820B94F9CEFF86EB50DBE510A0C40.tmp' to '../../../../Projekte/NotPartofTheGame/Saved/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.umap'
+[2015.09.04-19.13.13:022][927]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (pointB_Sprite8)
+[2015.09.04-19.13.16:304][221]LogEditorViewport: Clicking on Actor (LMB): wolf_C (wolf7)
+[2015.09.04-19.13.19:346][508]LogEditorViewport: Clicking on Actor (LMB): wolf_C (wolf8)
+[2015.09.04-19.13.20:846][646]LogEditorViewport: Clicking on Actor (LMB): wolf_C (wolf7)
+[2015.09.04-19.13.34:963][ 36]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.13.35:615][ 36]LogSavePackage: Save=579.670044ms
+[2015.09.04-19.13.35:615][ 36]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/UEDPCTesting_LevelFAA18FEC4FD7400323C5298C7DEAB233.tmp' to '../../../../Projekte/NotPartofTheGame/Saved/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.umap'
+[2015.09.04-19.14.18:427][404]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.14.27:098][430]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.14.27:933][430]LogSavePackage: Save=619.702026ms
+[2015.09.04-19.14.27:933][430]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/Testing_Level_Auto25079ADC546F1ADB281931096F7B05571.tmp' to '../../../../Projekte/NotPartofTheGame/Saved/Autosaves/Game/NPOTG/Maps/Testing_Level_Auto2.umap'
+[2015.09.04-19.14.27:938][430]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NPOTG/Maps/Testing_Level' took 0.726
+[2015.09.04-19.14.27:938][430]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.726
+[2015.09.04-19.15.03:603][969]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.09.04-19.15.15:739][800]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.09.04-19.15.18:212][978]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.09.04-19.15.20:707][ 97]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.09.04-19.15.23:668][176]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.09.04-19.15.25:188][229]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.15.25:853][229]LogSavePackage: Save=584.189636ms
+[2015.09.04-19.15.25:854][229]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/UEDPCTesting_LevelEDD96D094689418C8AB0B9B37A584E3D.tmp' to '../../../../Projekte/NotPartofTheGame/Saved/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.umap'
+[2015.09.04-19.16.04:956][883]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.09.04-19.16.06:000][963]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.09.04-19.16.08:077][124]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.09.04-19.16.09:156][208]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.09.04-19.16.10:937][346]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.09.04-19.16.14:765][650]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.16.14:780][650]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.16.18:526][893]LogRenderer: Reallocating scene render targets to support 1208x712 (Frame:29090).
+[2015.09.04-19.16.21:315][ 33]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.16.34:902][982]BlueprintLog: New page: Compile spikes
+[2015.09.04-19.16.34:928][982]LogUObjectGlobals:Warning: Guid is in use by PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes11.RenderComponent and PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes_C_0.RenderComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.09.04-19.16.34:936][982]LogUObjectGlobals:Warning: Guid is in use by PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes12.RenderComponent and PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes_C_5.RenderComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.09.04-19.16.34:943][982]LogUObjectGlobals:Warning: Guid is in use by PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes13.RenderComponent and PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes_C_6.RenderComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.09.04-19.16.34:950][982]LogUObjectGlobals:Warning: Guid is in use by PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes14_373.RenderComponent and PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes_C_7.RenderComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.09.04-19.16.34:958][982]LogUObjectGlobals:Warning: Guid is in use by PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes15.RenderComponent and PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes_C_8.RenderComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.09.04-19.16.34:965][982]LogUObjectGlobals:Warning: Guid is in use by PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes16.RenderComponent and PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes_C_9.RenderComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.09.04-19.16.34:972][982]LogUObjectGlobals:Warning: Guid is in use by PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes17.RenderComponent and PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes_C_10.RenderComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.09.04-19.16.34:979][982]LogUObjectGlobals:Warning: Guid is in use by PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes18.RenderComponent and PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes_C_11.RenderComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.09.04-19.16.34:986][982]LogUObjectGlobals:Warning: Guid is in use by PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes19.RenderComponent and PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes_C_12.RenderComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.09.04-19.16.34:993][982]LogUObjectGlobals:Warning: Guid is in use by PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes20.RenderComponent and PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes_C_13.RenderComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.09.04-19.16.35:000][982]LogUObjectGlobals:Warning: Guid is in use by PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes5.RenderComponent and PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes_C_14.RenderComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.09.04-19.16.35:008][982]LogUObjectGlobals:Warning: Guid is in use by PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes6.RenderComponent and PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes_C_15.RenderComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.09.04-19.16.35:015][982]LogUObjectGlobals:Warning: Guid is in use by PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes7.RenderComponent and PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes_C_16.RenderComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.09.04-19.16.35:022][982]LogUObjectGlobals:Warning: Guid is in use by PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes8.RenderComponent and PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes_C_17.RenderComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.09.04-19.16.35:029][982]LogUObjectGlobals:Warning: Guid is in use by PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes9.RenderComponent and PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes_C_18.RenderComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.09.04-19.16.35:037][982]LogUObjectGlobals:Warning: Guid is in use by PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes_C_1.RenderComponent and PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes_C_19.RenderComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.09.04-19.16.35:044][982]LogUObjectGlobals:Warning: Guid is in use by PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes_C_2.RenderComponent and PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes_C_20.RenderComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.09.04-19.16.35:052][982]LogUObjectGlobals:Warning: Guid is in use by PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes_C_3.RenderComponent and PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes_C_21.RenderComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.09.04-19.16.35:059][982]LogUObjectGlobals:Warning: Guid is in use by PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes_C_4.RenderComponent and PaperSpriteComponent /Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.spikes_C_22.RenderComponent, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.09.04-19.16.35:210][982]BlueprintEditorCompileResults: Info [4416.28] Compile of spikes successful! [in 307 ms]
+[2015.09.04-19.16.35:534][  1]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.16.35:547][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPOTG/Blueprints/spikes" FILE="../../../../Projekte/NotPartofTheGame/Content/NPOTG/Blueprints/spikes.uasset" SILENT=true
+[2015.09.04-19.16.35:622][  1]LogSavePackage: Save=21.767426ms
+[2015.09.04-19.16.35:622][  1]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/spikes5C3CBC7C404B7F70FC5421B8FA364EB1.tmp' to '../../../../Projekte/NotPartofTheGame/Content/NPOTG/Blueprints/spikes.uasset'
+[2015.09.04-19.16.37:738][135]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.16.38:379][135]LogSavePackage: Save=566.722778ms
+[2015.09.04-19.16.38:379][135]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/UEDPCTesting_Level2230B6734EDD817AA02C198866EA1CDC.tmp' to '../../../../Projekte/NotPartofTheGame/Saved/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.umap'
+[2015.09.04-19.17.41:520][146]LogEditorViewport: Clicking on Actor (LMB): wolf_C (wolf8)
+[2015.09.04-19.17.48:400][809]Cmd: DELETE
+[2015.09.04-19.17.48:400][809]Cmd: ACTOR DELETE
+[2015.09.04-19.17.48:405][809]LogEditorActor: Deleted Actor: wolf_C
+[2015.09.04-19.17.48:450][809]LogEditorActor: Deleted 1 Actors (0.049 secs)
+[2015.09.04-19.17.49:802][945]LogEditorViewport: Clicking on Actor (LMB): wolf_C (wolf7)
+[2015.09.04-19.17.51:111][ 69]Cmd: TRANSACTION UNDO
+[2015.09.04-19.17.51:111][ 69]LogEditorTransaction: Undo Clicking on Actors
+[2015.09.04-19.17.51:121][ 69]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.17.51:850][123]Cmd: TRANSACTION UNDO
+[2015.09.04-19.17.51:850][123]LogEditorTransaction: Undo Delete Actors
+[2015.09.04-19.17.54:206][348]LogEditorViewport: Clicking on Actor (LMB): wolf_C (wolf7)
+[2015.09.04-19.17.55:183][438]LogEditorViewport: Clicking on Actor (LMB): wolf_C (wolf8)
+[2015.09.04-19.18.00:986][995]LogEditorViewport: Clicking on Actor (LMB): wolf_C (wolf7)
+[2015.09.04-19.18.01:801][ 69]Cmd: DELETE
+[2015.09.04-19.18.01:801][ 69]Cmd: ACTOR DELETE
+[2015.09.04-19.18.01:805][ 69]LogEditorActor: Deleted Actor: wolf_C
+[2015.09.04-19.18.01:851][ 69]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2015.09.04-19.18.02:484][132]LogEditorViewport: Clicking on Actor (LMB): wolf_C (wolf10)
+[2015.09.04-19.18.03:738][251]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (pointB_Sprite8)
+[2015.09.04-19.18.05:838][454]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (pointA_Sprite10)
+[2015.09.04-19.18.07:116][573]LogEditorViewport: Clicking on Actor (LMB): wolf_C (wolf10)
+[2015.09.04-19.18.08:743][727]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.18.18:373][502]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.09.04-19.18.22:902][641]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.09.04-19.18.24:682][687]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.18.25:349][687]LogSavePackage: Save=588.333191ms
+[2015.09.04-19.18.25:349][687]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/UEDPCTesting_LevelCA681BED462620BE26437ABE86C28CE8.tmp' to '../../../../Projekte/NotPartofTheGame/Saved/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.umap'
+[2015.09.04-19.18.47:501][851]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.09.04-19.18.52:269][293]LogEditorViewport: Clicking on Actor (LMB): wolf_C (wolf8)
+[2015.09.04-19.18.55:585][610]LogEditorViewport: Clicking on Actor (LMB): wolf_C (wolf10)
+[2015.09.04-19.19.13:487][339]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (Player Start)
+[2015.09.04-19.19.17:056][542]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2015.09.04-19.19.18:061][586]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.19.18:712][586]LogSavePackage: Save=586.761658ms
+[2015.09.04-19.19.18:712][586]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/UEDPCTesting_Level8678BCF342BEF9FF254CC4907F05BD18.tmp' to '../../../../Projekte/NotPartofTheGame/Saved/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.umap'
+[2015.09.04-19.20.23:951][103]LogEditorViewport: Clicking on Actor (LMB): wolf_C (wolf8)
+[2015.09.04-19.20.45:182][ 92]Cmd: TRANSACTION UNDO
+[2015.09.04-19.20.45:182][ 92]LogEditorTransaction: Undo Move Components
+[2015.09.04-19.20.45:211][ 92]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.21.04:751][734]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (pointB_Sprite13)
+[2015.09.04-19.21.09:927][214]LogEditorViewport: Clicking on Actor (LMB): wolf_C (wolf10)
+[2015.09.04-19.21.12:080][413]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (pointA_Sprite11)
+[2015.09.04-19.21.13:905][572]LogEditorViewport: Clicking on Actor (LMB): wolf_C (wolf10)
+[2015.09.04-19.21.15:535][715]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (pointA_Sprite11)
+[2015.09.04-19.21.16:584][802]Cmd: DELETE
+[2015.09.04-19.21.16:584][802]Cmd: ACTOR DELETE
+[2015.09.04-19.21.16:595][802]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.21.17:845][802]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2015.09.04-19.21.17:893][802]LogEditorActor: Deleted 1 Actors (1.309 secs)
+[2015.09.04-19.21.19:004][908]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (pointB_Sprite13)
+[2015.09.04-19.21.19:639][958]Cmd: DELETE
+[2015.09.04-19.21.19:639][958]Cmd: ACTOR DELETE
+[2015.09.04-19.21.19:650][958]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.21.20:715][958]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2015.09.04-19.21.20:758][958]LogEditorActor: Deleted 1 Actors (1.118 secs)
+[2015.09.04-19.21.21:248][  4]LogEditorViewport: Clicking on Actor (LMB): wolf_C (wolf8)
+[2015.09.04-19.21.21:726][ 43]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (pointB_Sprite8)
+[2015.09.04-19.21.24:651][293]LogEditorViewport: Clicking on Actor (LMB): wolf_C (wolf8)
+[2015.09.04-19.21.35:830][320]LogEditorViewport: Clicking on Actor (LMB): wolf_C (wolf10)
+[2015.09.04-19.21.42:679][959]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (pointA_Sprite10)
+[2015.09.04-19.21.45:174][191]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (pointB_Sprite8)
+[2015.09.04-19.21.47:073][365]LogEditorViewport: Clicking Background
+[2015.09.04-19.21.53:755][989]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.21.53:906][  2]LogActorFactory: Actor Factory created Cube
+[2015.09.04-19.21.55:451][148]LogActorFactory: Actor Factory created Cube
+[2015.09.04-19.22.05:895][ 35]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.22.13:972][843]Cmd: DELETE
+[2015.09.04-19.22.13:972][843]Cmd: ACTOR DELETE
+[2015.09.04-19.22.13:976][843]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.09.04-19.22.14:022][843]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2015.09.04-19.22.15:767][  6]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.22.16:414][  6]LogSavePackage: Save=572.469299ms
+[2015.09.04-19.22.16:414][  6]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/UEDPCTesting_Level587B8949426150FE9FCBC88ECF334008.tmp' to '../../../../Projekte/NotPartofTheGame/Saved/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.umap'
+[2015.09.04-19.22.39:523][342]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.22.40:154][342]LogSavePackage: Save=567.449341ms
+[2015.09.04-19.22.40:154][342]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/UEDPCTesting_LevelAF07FF9B452D2F1484DD0EBC9AA84BEA.tmp' to '../../../../Projekte/NotPartofTheGame/Saved/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.umap'
+[2015.09.04-19.23.28:315][185]LogEditorViewport: Clicking on Actor (LMB): wolf_C (wolf10)
+[2015.09.04-19.23.35:072][811]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (pointB_Sprite8)
+[2015.09.04-19.23.36:359][924]LogEditorViewport: Clicking Background
+[2015.09.04-19.23.36:903][971]LogEditorViewport: Clicking on Actor (LMB): wolf_C (wolf10)
+[2015.09.04-19.23.38:962][140]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.23.39:623][140]LogSavePackage: Save=569.078674ms
+[2015.09.04-19.23.39:623][140]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/UEDPCTesting_Level8C68B0C54A654A3B8B10858A1DB2AD32.tmp' to '../../../../Projekte/NotPartofTheGame/Saved/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.umap'
+[2015.09.04-19.24.31:686][986]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.24.57:353][ 63]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.24.58:139][ 63]LogSavePackage: Save=582.233704ms
+[2015.09.04-19.24.58:139][ 63]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/Testing_Level_Auto393B6A8CC48C375112B3970BAFEBF8028.tmp' to '../../../../Projekte/NotPartofTheGame/Saved/Autosaves/Game/NPOTG/Maps/Testing_Level_Auto3.umap'
+[2015.09.04-19.24.58:143][ 63]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NPOTG/Maps/Testing_Level' took 0.680
+[2015.09.04-19.24.58:143][ 63]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.680
+[2015.09.04-19.32.03:911][592]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.32.05:162][592]LogD3D11RHI: InitD3DDevice
+[2015.09.04-19.32.05:793][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPOTG/Maps/Testing_Level" FILE="../../../../Projekte/NotPartofTheGame/Content/NPOTG/Maps/Testing_Level.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.09.04-19.32.06:448][592]LogSavePackage: Save=563.882385ms
+[2015.09.04-19.32.06:448][592]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/Testing_Level306DAE764BFDDF59FBB0F5A7CB9FF9BD.tmp' to '../../../../Projekte/NotPartofTheGame/Content/NPOTG/Maps/Testing_Level.umap'
+[2015.09.04-19.32.06:490][592]LogFileHelpers: Saving map 'Testing_Level' took 1.308
+[2015.09.04-19.32.06:852][593]Cmd: QUIT_EDITOR
+[2015.09.04-19.32.06:979][593]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.04-19.32.07:107][593]LogExit: Preparing to exit.
+[2015.09.04-19.32.07:943][593]LogExit: Editor shut down
+[2015.09.04-19.32.07:943][593]LogExit: Transaction tracking system shut down
+[2015.09.04-19.32.07:952][593]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F94A795760
+[2015.09.04-19.32.07:952][593]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F96041F920
+[2015.09.04-19.32.07:954][593]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F96531F9C0
+[2015.09.04-19.32.07:954][593]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F9560BBCE0
+[2015.09.04-19.32.07:954][593]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F95A824220
+[2015.09.04-19.32.07:954][593]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F96E3991C0
+[2015.09.04-19.32.07:958][593]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000F905AB6840
+[2015.09.04-19.32.08:120][593]LogExit: Object subsystem successfully closed.
+[2015.09.04-19.32.08:136][593]LogD3D11RHI: Shutdown
+[2015.09.04-19.32.08:136][593]LogD3D11RHI: CleanupD3DDevice
+[2015.09.04-19.32.08:236][593]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.09.04-19.32.08:255][593]LogModuleManager: Shutting down and abandoning module CrashTracker (190)
+[2015.09.04-19.32.08:255][593]LogModuleManager: Shutting down and abandoning module SceneOutliner (189)
+[2015.09.04-19.32.08:255][593]LogModuleManager: Shutting down and abandoning module SuperSearch (188)
+[2015.09.04-19.32.08:255][593]LogModuleManager: Shutting down and abandoning module WidgetCarousel (187)
+[2015.09.04-19.32.08:255][593]LogModuleManager: Shutting down and abandoning module AddContentDialog (186)
+[2015.09.04-19.32.08:256][593]LogModuleManager: Shutting down and abandoning module EditorWidgets (185)
+[2015.09.04-19.32.08:256][593]LogModuleManager: Shutting down and abandoning module CollectionManager (184)
+[2015.09.04-19.32.08:256][593]LogModuleManager: Shutting down and abandoning module StatsViewer (183)
+[2015.09.04-19.32.08:256][593]LogModuleManager: Shutting down and abandoning module FoliageEdit (182)
+[2015.09.04-19.32.08:256][593]LogModuleManager: Shutting down and abandoning module LandscapeEditor (181)
+[2015.09.04-19.32.08:256][593]LogModuleManager: Shutting down and abandoning module ActorPickerMode (180)
+[2015.09.04-19.32.08:256][593]LogModuleManager: Shutting down and abandoning module GeometryMode (179)
+[2015.09.04-19.32.08:256][593]LogModuleManager: Shutting down and abandoning module TextureAlignMode (178)
+[2015.09.04-19.32.08:256][593]LogModuleManager: Shutting down and abandoning module BspMode (177)
+[2015.09.04-19.32.08:257][593]LogModuleManager: Shutting down and abandoning module PlacementMode (176)
+[2015.09.04-19.32.08:257][593]LogModuleManager: Shutting down and abandoning module AutomationWorker (175)
+[2015.09.04-19.32.08:257][593]LogModuleManager: Shutting down and abandoning module CharacterAI (174)
+[2015.09.04-19.32.08:257][593]LogModuleManager: Shutting down and abandoning module SmartSnapping (173)
+[2015.09.04-19.32.08:257][593]LogModuleManager: Shutting down and abandoning module ViewportSnapping (172)
+[2015.09.04-19.32.08:257][593]LogModuleManager: Shutting down and abandoning module LogVisualizer (171)
+[2015.09.04-19.32.08:257][593]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (170)
+[2015.09.04-19.32.08:257][593]LogModuleManager: Shutting down and abandoning module IntroTutorials (169)
+[2015.09.04-19.32.08:257][593]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (168)
+[2015.09.04-19.32.08:257][593]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (167)
+[2015.09.04-19.32.08:257][593]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (166)
+[2015.09.04-19.32.08:257][593]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (165)
+[2015.09.04-19.32.09:075][593]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (164)
+[2015.09.04-19.32.09:075][593]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (163)
+[2015.09.04-19.32.09:075][593]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (162)
+[2015.09.04-19.32.09:075][593]LogModuleManager: Shutting down and abandoning module MergeActors (161)
+[2015.09.04-19.32.09:075][593]LogModuleManager: Shutting down and abandoning module SizeMap (160)
+[2015.09.04-19.32.09:075][593]LogModuleManager: Shutting down and abandoning module TreeMap (159)
+[2015.09.04-19.32.09:075][593]LogModuleManager: Shutting down and abandoning module ReferenceViewer (158)
+[2015.09.04-19.32.09:075][593]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (157)
+[2015.09.04-19.32.09:075][593]LogModuleManager: Shutting down and abandoning module HardwareTargeting (156)
+[2015.09.04-19.32.09:075][593]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (155)
+[2015.09.04-19.32.09:075][593]LogModuleManager: Shutting down and abandoning module UndoHistory (154)
+[2015.09.04-19.32.09:075][593]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (153)
+[2015.09.04-19.32.09:075][593]LogModuleManager: Shutting down and abandoning module UserFeedback (152)
+[2015.09.04-19.32.09:075][593]LogModuleManager: Shutting down and abandoning module XmlParser (151)
+[2015.09.04-19.32.09:075][593]LogModuleManager: Shutting down and abandoning module Blutility (150)
+[2015.09.04-19.32.09:075][593]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (149)
+[2015.09.04-19.32.09:075][593]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (148)
+[2015.09.04-19.32.09:075][593]LogModuleManager: Shutting down and abandoning module InputBindingEditor (147)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (146)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module SettingsEditor (145)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module ProjectLauncher (144)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module SessionFrontend (143)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module ProfilerClient (142)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (141)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module DeviceManager (140)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module AutomationController (139)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module AutomationWindow (138)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module Layers (137)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (136)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module DetailCustomizations (135)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module PackagesDialog (134)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module Persona (133)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module Kismet (132)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module GraphEditor (131)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module ClassViewer (130)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module Toolbox (129)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module ModuleUI (128)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module MovieSceneTools (127)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module OutputLog (126)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module GammaUI (125)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module Documentation (124)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (123)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (122)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module AnalyticsET (121)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module Analytics (120)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module AITestSuite (119)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module GameplayDebugger (118)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module AIModule (117)
+[2015.09.04-19.32.09:076][593]LogModuleManager: Shutting down and abandoning module ProfilerService (116)
+[2015.09.04-19.32.09:254][593]LogModuleManager: Shutting down and abandoning module TaskGraph (115)
+[2015.09.04-19.32.09:254][593]LogModuleManager: Shutting down and abandoning module SubstanceEditor (114)
+[2015.09.04-19.32.09:254][593]LogModuleManager: Shutting down and abandoning module SlateRemote (113)
+[2015.09.04-19.32.09:254][593]LogModuleManager: Shutting down and abandoning module SteamVRController (112)
+[2015.09.04-19.32.09:254][593]LogModuleManager: Shutting down and abandoning module SteamVR (111)
+[2015.09.04-19.32.09:254][593]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (110)
+[2015.09.04-19.32.09:254][593]LogModuleManager: Shutting down and abandoning module OculusRift (109)
+[2015.09.04-19.32.09:254][593]LogModuleManager: Shutting down and abandoning module LeapMotionController (108)
+[2015.09.04-19.32.09:267][593]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (107)
+[2015.09.04-19.32.09:267][593]LogModuleManager: Shutting down and abandoning module CableComponent (106)
+[2015.09.04-19.32.09:267][593]LogModuleManager: Shutting down and abandoning module MessagingDebugger (105)
+[2015.09.04-19.32.09:267][593]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (104)
+[2015.09.04-19.32.09:267][593]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (103)
+[2015.09.04-19.32.09:267][593]LogModuleManager: Shutting down and abandoning module PluginBrowser (102)
+[2015.09.04-19.32.09:267][593]LogModuleManager: Shutting down and abandoning module EpicSurvey (101)
+[2015.09.04-19.32.09:267][593]LogModuleManager: Shutting down and abandoning module DesktopPlatform (100)
+[2015.09.04-19.32.09:267][593]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (99)
+[2015.09.04-19.32.09:268][593]LogModuleManager: Shutting down and abandoning module UObjectPlugin (98)
+[2015.09.04-19.32.09:268][593]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (97)
+[2015.09.04-19.32.09:268][593]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (96)
+[2015.09.04-19.32.09:268][593]LogModuleManager: Shutting down and abandoning module SourceControl (95)
+[2015.09.04-19.32.09:268][593]LogModuleManager: Shutting down and abandoning module GitSourceControl (94)
+[2015.09.04-19.32.09:268][593]LogModuleManager: Shutting down and abandoning module BlankPlugin (93)
+[2015.09.04-19.32.09:268][593]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (92)
+[2015.09.04-19.32.09:268][593]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (91)
+[2015.09.04-19.32.09:268][593]LogModuleManager: Shutting down and abandoning module MeshPaint (90)
+[2015.09.04-19.32.09:268][593]LogModuleManager: Shutting down and abandoning module SlateReflector (89)
+[2015.09.04-19.32.09:268][593]LogModuleManager: Shutting down and abandoning module HotReload (88)
+[2015.09.04-19.32.09:268][593]LogModuleManager: Shutting down and abandoning module MainFrame (87)
+[2015.09.04-19.32.09:268][593]LogModuleManager: Shutting down and abandoning module LevelEditor (86)
+[2015.09.04-19.32.09:269][593]LogModuleManager: Shutting down and abandoning module ContentBrowser (85)
+[2015.09.04-19.32.09:269][593]LogModuleManager: Shutting down and abandoning module Paper2DEditor (84)
+[2015.09.04-19.32.09:269][593]LogModuleManager: Shutting down and abandoning module UdpMessaging (83)
+[2015.09.04-19.32.09:370][593]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (82)
+[2015.09.04-19.32.09:371][593]LogModuleManager: Shutting down and abandoning module AssetRegistry (81)
+[2015.09.04-19.32.09:525][593]LogModuleManager: Shutting down and abandoning module SubstanceCore (80)
+[2015.09.04-19.32.09:525][593]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.09.04-19.32.09:525][593]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.09.04-19.32.09:528][593]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.09.04-19.32.09:528][593]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.09.04-19.32.09:528][593]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.09.04-19.32.09:528][593]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.09.04-19.32.09:528][593]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.09.04-19.32.09:528][593]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.09.04-19.32.09:528][593]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.09.04-19.32.09:528][593]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.09.04-19.32.09:528][593]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.09.04-19.32.09:528][593]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.09.04-19.32.09:528][593]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.09.04-19.32.09:528][593]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.09.04-19.32.09:528][593]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.09.04-19.32.09:528][593]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.09.04-19.32.09:528][593]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.09.04-19.32.09:531][593]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.09.04-19.32.09:532][593]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.09.04-19.32.09:532][593]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.09.04-19.32.09:532][593]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.09.04-19.32.09:532][593]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.09.04-19.32.09:532][593]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.09.04-19.32.09:532][593]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.09.04-19.32.09:532][593]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.09.04-19.32.09:532][593]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.09.04-19.32.09:532][593]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.09.04-19.32.09:568][593]LogDerivedDataCache: Shutdown
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.09.04-19.32.09:568][593]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.09.04-19.32.09:569][593]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.09.04-19.32.09:569][593]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.09.04-19.32.09:569][593]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.09.04-19.32.09:569][593]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.09.04-19.32.09:573][593]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.09.04-19.32.09:573][593]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.09.04-19.32.09:573][593]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.09.04-19.32.09:573][593]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.09.04-19.32.09:573][593]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.09.04-19.32.09:573][593]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.09.04-19.32.09:573][593]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.09.04-19.32.09:573][593]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.09.04-19.32.09:573][593]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.09.04-19.32.09:574][593]LogExit: Exiting.
+[2015.09.04-19.32.09:575][593]Log file closed, 09/04/15 21:32:09
