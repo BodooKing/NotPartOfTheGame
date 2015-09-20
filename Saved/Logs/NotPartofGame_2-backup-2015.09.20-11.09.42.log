@@ -1,0 +1,346 @@
+﻿[2015.09.20-09.08.49:821][  0]Log file open, 09/20/15 11:08:49
+[2015.09.20-09.08.49:822][  0]LogInit:Display: Running engine for game: NotPartofGame
+[2015.09.20-09.08.49:822][  0]LogInit:Display: RandInit(282841038) SRandInit(282841038).
+[2015.09.20-09.08.49:822][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.20-09.08.49:822][  0]LogStats: Stats thread started
+[2015.09.20-09.08.49:822][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.09.20-09.08.49:822][  0]LogInit: API Version: 2579680
+[2015.09.20-09.08.49:822][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.09.20-09.08.49:822][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.20-09.08.49:822][  0]LogInit: Build Configuration: Development
+[2015.09.20-09.08.49:822][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.09.20-09.08.49:822][  0]LogInit: Command line:  /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+[2015.09.20-09.08.49:822][  0]LogInit: Base directory: C:/Users/Bodoo/Documents/Programmieren/4.8/Engine/Binaries/Win64/
+[2015.09.20-09.08.49:822][  0]LogInit: Rocket: 1
+[2015.09.20-09.08.49:841][  0]LogInit: Using libcurl 7.41.0
+[2015.09.20-09.08.49:841][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.20-09.08.49:841][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.20-09.08.49:841][  0]LogInit:  - other features:
+[2015.09.20-09.08.49:841][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.20-09.08.49:841][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.20-09.08.49:841][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.20-09.08.49:841][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.20-09.08.49:841][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.20-09.08.49:841][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.20-09.08.49:841][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.20-09.08.49:841][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.20-09.08.49:841][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.20-09.08.49:841][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.20-09.08.49:854][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.09.20-09.08.49:870][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.20-09.08.49:879][  0]LogInit: Object subsystem initialized
+[2015.09.20-09.08.49:880][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2015.09.20-09.08.49:880][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Bodoo/Documents/Programmieren/Projekte/NotPartofTheGame/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.20-09.08.49:880][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set ('Scalability' has a lower priority than 'ProjectSetting')
+[2015.09.20-09.08.49:880][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.20-09.08.49:880][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.20-09.08.49:883][  0]LogInit: Computer: DESKTOP-GLF6O4V
+[2015.09.20-09.08.49:883][  0]LogInit: User: Bodoo
+[2015.09.20-09.08.49:883][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.20-09.08.49:883][  0]LogInit: High frequency timer resolution =3.215357 MHz
+[2015.09.20-09.08.49:883][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2015.09.20-09.08.49:883][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.20-09.08.49:883][  0]LogMemory: Process Physical Memory: 51.23 MB used, 51.23 MB peak
+[2015.09.20-09.08.49:883][  0]LogMemory: Process Virtual Memory: 22.64 MB used, 22.64 MB peak
+[2015.09.20-09.08.49:883][  0]LogMemory: Physical Memory: 2659.89 MB used, 12270.70 MB total
+[2015.09.20-09.08.49:883][  0]LogMemory: Virtual Memory: 310.63 MB used, 134217728.00 MB total
+[2015.09.20-09.08.49:913][  0]LogTextLocalizationManager: The requested culture ('de_DE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.09.20-09.08.50:161][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Users/Bodoo/Documents/Programmieren/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Users/Bodoo/Documents/Programmieren/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.09.20-09.08.50:499][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6800 Series (Feature Level 11_0)
+[2015.09.20-09.08.50:499][  0]LogD3D11RHI: Adapter has 1011MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2015.09.20-09.08.50:500][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.20-09.08.50:500][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 6135MB of shared system memory, 0 output[s]
+[2015.09.20-09.08.50:500][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.20-09.08.50:503][  0]LogD3D11RHI: InitD3DDevice
+[2015.09.20-09.08.50:503][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.20-09.08.50:503][  0]LogRHI: Texture pool is 708 MB (70% of 1011 MB)
+[2015.09.20-09.08.50:509][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.09.20-09.08.50:519][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.20-09.08.51:307][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.09.20-09.08.51:322][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.20-09.08.51:336][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.20-09.08.51:350][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.20-09.08.51:366][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.20-09.08.51:378][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.20-09.08.51:391][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.20-09.08.51:403][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.20-09.08.51:415][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.20-09.08.51:428][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.20-09.08.51:440][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.20-09.08.51:454][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.20-09.08.51:504][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.20-09.08.51:517][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.20-09.08.51:530][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.20-09.08.51:545][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.20-09.08.51:546][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.20-09.08.51:756][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.20-09.08.51:819][  0]LogDerivedDataCache: Loaded boot cache 0.06s 53MB C:/Users/Bodoo/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.09.20-09.08.51:819][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Bodoo/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.09.20-09.08.51:819][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Projekte/NotPartofTheGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.20-09.08.51:819][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.20-09.08.51:819][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Projekte/NotPartofTheGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.20-09.08.51:819][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.20-09.08.51:968][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.20-09.08.51:980][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bodoo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.20-09.08.52:212][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.20-09.08.52:296][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.09.20-09.08.52:296][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.09.20-09.08.52:324][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.20-09.08.52:324][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.20-09.08.52:604][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.20-09.08.53:035][  0]LogD3D11RHI: InitD3DDevice
+[2015.09.20-09.08.53:039][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../Projekte/NotPartofTheGame/Content/Movies/Default_Startup.mp4
+[2015.09.20-09.08.53:181][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2015.09.20-09.08.53:227][  0]SourceControl: Info Source control is disabled
+[2015.09.20-09.08.53:227][  0]SourceControl: Info Source control is disabled
+[2015.09.20-09.08.53:237][  0]SourceControl: Info Source control is disabled
+[2015.09.20-09.08.53:418][  0]LogObj: 25913 objects as part of root set at end of initial load.
+[2015.09.20-09.08.53:418][  0]LogUObjectAllocator: 5218480 out of 0 bytes used by permanent object pool.
+[2015.09.20-09.08.53:487][  0]LogAutomationTest:Warning: ERR: Transient text cannot be serialized "Testing Transient serialization detection".
+[2015.09.20-09.08.53:487][  0]LogEngine: Initializing Engine...
+[2015.09.20-09.08.53:489][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.20-09.08.53:490][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.09.20-09.08.53:581][  0]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.20-09.08.53:591][  0]LogInit: FAudioDevice initialized.
+[2015.09.20-09.08.53:599][  0]LogInit: Texture streaming: Disabled
+[2015.09.20-09.08.53:663][  0]LogNet: Browse: /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level?Name=Player
+[2015.09.20-09.08.53:663][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level?Name=Player
+[2015.09.20-09.08.53:673][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007B4761F560
+[2015.09.20-09.08.53:681][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.20-09.08.53:681][  0]LogMemory: Process Physical Memory: 335.13 MB used, 335.13 MB peak
+[2015.09.20-09.08.53:681][  0]LogMemory: Process Virtual Memory: 371.45 MB used, 371.45 MB peak
+[2015.09.20-09.08.53:681][  0]LogMemory: Physical Memory: 2892.30 MB used, 12270.70 MB total
+[2015.09.20-09.08.53:681][  0]LogMemory: Virtual Memory: 893.25 MB used, 134217728.00 MB total
+[2015.09.20-09.08.53:681][  0]LogMemory: 
+[2015.09.20-09.08.53:681][  0]Allocator Stats for TBB: (not implemented)
+[2015.09.20-09.08.53:991][  0]LogBlueprint:Warning: [Admin_Widget] CreatePinForVariable: 'X' variable not found. Base class was probably changed.
+[2015.09.20-09.08.53:991][  0]LogBlueprint:Warning: [Admin_Widget] CreatePinForVariable: 'Z' variable not found. Base class was probably changed.
+[2015.09.20-09.08.54:003][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue Z".
+[2015.09.20-09.08.54:003][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue Y".
+[2015.09.20-09.08.54:003][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue X".
+[2015.09.20-09.08.54:011][  0]LogBlueprint:Warning: [compiler Admin_Widget] Warning Could not find a variable named "Z" in 'Markimoo_C'.
+Make sure 'Markimoo_C' has been compiled for  Get Z 
+[2015.09.20-09.08.54:011][  0]LogBlueprint:Warning: [compiler Admin_Widget] Warning Could not find a variable named "X" in 'Markimoo_C'.
+Make sure 'Markimoo_C' has been compiled for  Get X 
+[2015.09.20-09.08.54:012][  0]LogBlueprint:Error: [compiler Admin_Widget] Error The property associated with  Z  could not be found
+[2015.09.20-09.08.54:012][  0]LogBlueprint:Error: [compiler Admin_Widget] Error The property associated with  X  could not be found
+[2015.09.20-09.08.54:022][  0]LogBlueprint:Warning: [compiler Admin_Widget] Warning [0005.81] Compile of Admin_Widget failed. 2 Fatal Issue(s) 2 Warning(s) [in 25 ms]
+[2015.09.20-09.08.54:022][  0]LogBlueprint:Warning: [compiler Admin_Widget] Warning [0005.81] Compile of Admin_Widget failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.09.20-09.08.54:022][  0]LogBlueprint:Warning: [compiler Admin_Widget] Warning [0005.82] Compile of Admin_Widget failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.09.20-09.08.54:334][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue Z".
+[2015.09.20-09.08.54:334][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue Y".
+[2015.09.20-09.08.54:334][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue X".
+[2015.09.20-09.08.54:692][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewLocation Z".
+[2015.09.20-09.08.54:692][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewLocation Y".
+[2015.09.20-09.08.54:692][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewLocation X".
+[2015.09.20-09.08.54:692][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue Z".
+[2015.09.20-09.08.54:692][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue Y".
+[2015.09.20-09.08.54:692][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue X".
+[2015.09.20-09.08.54:693][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewLocation Z".
+[2015.09.20-09.08.54:693][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewLocation Y".
+[2015.09.20-09.08.54:693][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewLocation X".
+[2015.09.20-09.08.54:695][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Roll".
+[2015.09.20-09.08.54:695][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Yaw".
+[2015.09.20-09.08.54:695][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Pitch".
+[2015.09.20-09.08.54:696][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Roll".
+[2015.09.20-09.08.54:696][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Yaw".
+[2015.09.20-09.08.54:696][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Pitch".
+[2015.09.20-09.08.54:752][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewLocation Z".
+[2015.09.20-09.08.54:752][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewLocation Y".
+[2015.09.20-09.08.54:752][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewLocation X".
+[2015.09.20-09.08.54:752][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue Z".
+[2015.09.20-09.08.54:752][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue Y".
+[2015.09.20-09.08.54:752][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue X".
+[2015.09.20-09.08.54:752][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewLocation Z".
+[2015.09.20-09.08.54:752][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewLocation Y".
+[2015.09.20-09.08.54:752][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewLocation X".
+[2015.09.20-09.08.54:755][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Roll".
+[2015.09.20-09.08.54:755][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Yaw".
+[2015.09.20-09.08.54:755][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Pitch".
+[2015.09.20-09.08.54:755][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Roll".
+[2015.09.20-09.08.54:755][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Yaw".
+[2015.09.20-09.08.54:755][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Pitch".
+[2015.09.20-09.08.55:954][  0]LogAIModule: Creating AISystem for world Testing_Level
+[2015.09.20-09.08.55:954][  0]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.09.20-09.08.56:042][  0]LogWorld: Bringing World /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level up for play (max tick rate 0) at 2015.09.20-11.08.56
+[2015.09.20-09.08.56:060][  0]LogWorld: Bringing up level for play took: 0.102633
+[2015.09.20-09.08.56:063][  0]LogInit:Display: Game Engine Initialized.
+[2015.09.20-09.08.56:289][  0]LogLoad: Full Startup: 8.08 seconds (BP compile: 1.18 seconds)
+[2015.09.20-09.08.56:305][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.20-09.08.56:305][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.20-09.08.56:308][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2015.09.20-09.08.56:430][  0]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:2).
+[2015.09.20-09.08.56:554][  1]LogScript:Warning: Accessed None 'PointA'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_15
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:00C2
+[2015.09.20-09.08.56:554][  1]LogScript:Warning: Accessed None 'PointB'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_15
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:00ED
+[2015.09.20-09.08.56:569][  2]LogScript:Warning: Accessed None 'PointA'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_15
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:00C2
+[2015.09.20-09.08.56:569][  2]LogScript:Warning: Accessed None 'PointB'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_15
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:00ED
+[2015.09.20-09.08.56:585][  3]LogScript:Warning: Accessed None 'PointA'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_15
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:00C2
+[2015.09.20-09.08.56:585][  3]LogScript:Warning: Accessed None 'PointB'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_15
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:00ED
+[2015.09.20-09.08.56:602][  4]LogScript:Warning: Accessed None 'PointA'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_15
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:00C2
+[2015.09.20-09.08.56:602][  4]LogScript:Warning: Accessed None 'PointB'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_15
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:00ED
+[2015.09.20-09.08.56:618][  5]LogScript:Warning: Accessed None 'PointA'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_15
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:00C2
+[2015.09.20-09.08.56:618][  5]LogScript:Warning: Accessed None 'PointB'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_15
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:00ED
+[2015.09.20-09.08.56:634][  6]LogScript:Warning: Accessed None 'PointA'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_15
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:00C2
+[2015.09.20-09.08.56:634][  6]LogScript:Warning: Accessed None 'PointB'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_15
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:00ED
+[2015.09.20-09.08.56:650][  7]LogScript:Warning: Accessed None 'PointA'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_15
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:00C2
+[2015.09.20-09.08.56:650][  7]LogScript:Warning: Accessed None 'PointB'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_15
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:00ED
+[2015.09.20-09.08.56:666][  8]LogScript:Warning: Accessed None 'PointA'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_15
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:00C2
+[2015.09.20-09.08.56:666][  8]LogScript:Warning: Accessed None 'PointB'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_15
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:00ED
+[2015.09.20-09.08.56:683][  9]LogScript:Warning: Accessed None 'PointA'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_15
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:00C2
+[2015.09.20-09.09.30:433][101]Closing by request
+[2015.09.20-09.09.30:433][101]LogWindows: FPlatformMisc::RequestExit(0)
+[2015.09.20-09.09.30:549][102]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.20-09.09.30:550][102]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.20-09.09.30:556][102]LogExit: Preparing to exit.
+[2015.09.20-09.09.30:681][102]LogExit: Game engine shut down
+[2015.09.20-09.09.30:685][102]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000007B434D4CC0
+[2015.09.20-09.09.30:836][102]LogExit: Object subsystem successfully closed.
+[2015.09.20-09.09.30:849][102]LogD3D11RHI: Shutdown
+[2015.09.20-09.09.30:849][102]LogD3D11RHI: CleanupD3DDevice
+[2015.09.20-09.09.30:935][102]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.09.20-09.09.30:948][102]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (109)
+[2015.09.20-09.09.31:324][102]LogModuleManager: Shutting down and abandoning module AutomationWorker (108)
+[2015.09.20-09.09.31:324][102]LogModuleManager: Shutting down and abandoning module CharacterAI (107)
+[2015.09.20-09.09.31:324][102]LogModuleManager: Shutting down and abandoning module AITestSuite (106)
+[2015.09.20-09.09.31:324][102]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.09.20-09.09.31:324][102]LogModuleManager: Shutting down and abandoning module AIModule (104)
+[2015.09.20-09.09.31:324][102]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (103)
+[2015.09.20-09.09.31:324][102]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (102)
+[2015.09.20-09.09.31:324][102]LogModuleManager: Shutting down and abandoning module ProfilerService (101)
+[2015.09.20-09.09.31:507][102]LogModuleManager: Shutting down and abandoning module TaskGraph (100)
+[2015.09.20-09.09.31:507][102]LogModuleManager: Shutting down and abandoning module SlateRemote (99)
+[2015.09.20-09.09.31:507][102]LogModuleManager: Shutting down and abandoning module SteamVRController (98)
+[2015.09.20-09.09.31:507][102]LogModuleManager: Shutting down and abandoning module SteamVR (97)
+[2015.09.20-09.09.31:507][102]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (96)
+[2015.09.20-09.09.31:507][102]LogModuleManager: Shutting down and abandoning module OculusRift (95)
+[2015.09.20-09.09.31:507][102]LogModuleManager: Shutting down and abandoning module LeapMotionController (94)
+[2015.09.20-09.09.31:514][102]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (93)
+[2015.09.20-09.09.31:514][102]LogModuleManager: Shutting down and abandoning module CableComponent (92)
+[2015.09.20-09.09.31:514][102]LogModuleManager: Shutting down and abandoning module DesktopPlatform (91)
+[2015.09.20-09.09.31:514][102]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.09.20-09.09.31:514][102]LogModuleManager: Shutting down and abandoning module HotReload (89)
+[2015.09.20-09.09.31:514][102]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2015.09.20-09.09.31:514][102]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2015.09.20-09.09.31:514][102]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2015.09.20-09.09.31:514][102]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2015.09.20-09.09.31:514][102]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2015.09.20-09.09.31:514][102]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2015.09.20-09.09.31:514][102]LogModuleManager: Shutting down and abandoning module UdpMessaging (82)
+[2015.09.20-09.09.31:514][102]LogModuleManager: Shutting down and abandoning module AssetRegistry (81)
+[2015.09.20-09.09.31:514][102]LogModuleManager: Shutting down and abandoning module SubstanceCore (80)
+[2015.09.20-09.09.31:514][102]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.09.20-09.09.31:514][102]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.09.20-09.09.31:516][102]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.09.20-09.09.31:516][102]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.09.20-09.09.31:517][102]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.09.20-09.09.31:517][102]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.09.20-09.09.31:517][102]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.09.20-09.09.31:517][102]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.09.20-09.09.31:517][102]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.09.20-09.09.31:517][102]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.09.20-09.09.31:517][102]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.09.20-09.09.31:517][102]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.09.20-09.09.31:517][102]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.09.20-09.09.31:517][102]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.09.20-09.09.31:517][102]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.09.20-09.09.31:517][102]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.09.20-09.09.31:517][102]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.09.20-09.09.31:519][102]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.09.20-09.09.31:519][102]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.09.20-09.09.31:519][102]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.09.20-09.09.31:519][102]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.09.20-09.09.31:519][102]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.09.20-09.09.31:519][102]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.09.20-09.09.31:519][102]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.09.20-09.09.31:519][102]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.09.20-09.09.31:520][102]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.09.20-09.09.31:520][102]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.09.20-09.09.32:010][102]LogDerivedDataCache: Shutdown
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.09.20-09.09.32:010][102]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.09.20-09.09.32:011][102]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.09.20-09.09.32:011][102]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.09.20-09.09.32:011][102]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.09.20-09.09.32:011][102]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.09.20-09.09.32:011][102]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.09.20-09.09.32:011][102]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.09.20-09.09.32:011][102]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.09.20-09.09.32:011][102]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.09.20-09.09.32:011][102]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.09.20-09.09.32:011][102]LogExit: Exiting.
+[2015.09.20-09.09.32:013][102]Log file closed, 09/20/15 11:09:32
