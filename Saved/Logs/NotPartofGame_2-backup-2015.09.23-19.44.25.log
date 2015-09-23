@@ -1,0 +1,771 @@
+﻿[2015.09.23-17.43.38:263][  0]Log file open, 09/23/15 19:43:38
+[2015.09.23-17.43.38:263][  0]LogInit:Display: Running engine for game: NotPartofGame
+[2015.09.23-17.43.38:263][  0]LogInit:Display: RandInit(-677004586) SRandInit(-677004585).
+[2015.09.23-17.43.38:263][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.23-17.43.38:263][  0]LogStats: Stats thread started
+[2015.09.23-17.43.38:263][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.09.23-17.43.38:263][  0]LogInit: API Version: 2579680
+[2015.09.23-17.43.38:263][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.09.23-17.43.38:263][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.23-17.43.38:263][  0]LogInit: Build Configuration: Development
+[2015.09.23-17.43.38:263][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.09.23-17.43.38:263][  0]LogInit: Command line:  /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+[2015.09.23-17.43.38:263][  0]LogInit: Base directory: C:/Users/Bodoo/Documents/Programmieren/4.8/Engine/Binaries/Win64/
+[2015.09.23-17.43.38:263][  0]LogInit: Rocket: 1
+[2015.09.23-17.43.38:286][  0]LogInit: Using libcurl 7.41.0
+[2015.09.23-17.43.38:286][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.23-17.43.38:286][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.23-17.43.38:286][  0]LogInit:  - other features:
+[2015.09.23-17.43.38:286][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.23-17.43.38:286][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.23-17.43.38:286][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.23-17.43.38:286][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.23-17.43.38:286][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.23-17.43.38:286][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.23-17.43.38:286][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.23-17.43.38:286][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.23-17.43.38:286][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.23-17.43.38:286][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.23-17.43.38:300][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.09.23-17.43.38:315][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.23-17.43.38:323][  0]LogInit: Object subsystem initialized
+[2015.09.23-17.43.38:324][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2015.09.23-17.43.38:324][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Bodoo/Documents/Programmieren/Projekte/NotPartofTheGame/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.23-17.43.38:324][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set ('Scalability' has a lower priority than 'ProjectSetting')
+[2015.09.23-17.43.38:324][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.23-17.43.38:324][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.23-17.43.38:327][  0]LogInit: Computer: DESKTOP-GLF6O4V
+[2015.09.23-17.43.38:327][  0]LogInit: User: Bodoo
+[2015.09.23-17.43.38:327][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.23-17.43.38:327][  0]LogInit: High frequency timer resolution =3.215354 MHz
+[2015.09.23-17.43.38:327][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2015.09.23-17.43.38:327][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.23-17.43.38:327][  0]LogMemory: Process Physical Memory: 51.21 MB used, 51.21 MB peak
+[2015.09.23-17.43.38:327][  0]LogMemory: Process Virtual Memory: 22.53 MB used, 22.53 MB peak
+[2015.09.23-17.43.38:327][  0]LogMemory: Physical Memory: 2932.08 MB used, 12270.45 MB total
+[2015.09.23-17.43.38:327][  0]LogMemory: Virtual Memory: 310.63 MB used, 134217728.00 MB total
+[2015.09.23-17.43.38:355][  0]LogTextLocalizationManager: The requested culture ('de_DE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.09.23-17.43.38:597][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Users/Bodoo/Documents/Programmieren/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Users/Bodoo/Documents/Programmieren/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.09.23-17.43.38:934][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6800 Series (Feature Level 11_0)
+[2015.09.23-17.43.38:934][  0]LogD3D11RHI: Adapter has 1011MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2015.09.23-17.43.38:935][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.23-17.43.38:935][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 6135MB of shared system memory, 0 output[s]
+[2015.09.23-17.43.38:935][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.23-17.43.38:938][  0]LogD3D11RHI: InitD3DDevice
+[2015.09.23-17.43.38:938][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.23-17.43.38:938][  0]LogRHI: Texture pool is 708 MB (70% of 1011 MB)
+[2015.09.23-17.43.38:944][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.09.23-17.43.38:953][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.23-17.43.39:733][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.09.23-17.43.39:748][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.23-17.43.39:762][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.23-17.43.39:776][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.23-17.43.39:792][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.23-17.43.39:805][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.23-17.43.39:817][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.23-17.43.39:829][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.23-17.43.39:841][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.23-17.43.39:854][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.23-17.43.39:867][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.23-17.43.39:880][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.23-17.43.39:928][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.23-17.43.39:940][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.23-17.43.39:952][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.23-17.43.39:966][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.23-17.43.39:966][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.23-17.43.40:169][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.23-17.43.40:236][  0]LogDerivedDataCache: Loaded boot cache 0.07s 53MB C:/Users/Bodoo/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.09.23-17.43.40:236][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Bodoo/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.09.23-17.43.40:236][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Projekte/NotPartofTheGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.23-17.43.40:236][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.23-17.43.40:236][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Projekte/NotPartofTheGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.23-17.43.40:236][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.23-17.43.40:381][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.23-17.43.40:393][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bodoo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.23-17.43.40:623][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.23-17.43.40:712][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.09.23-17.43.40:712][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.09.23-17.43.40:740][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.23-17.43.40:740][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.23-17.43.41:050][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.23-17.43.41:491][  0]LogD3D11RHI: InitD3DDevice
+[2015.09.23-17.43.41:496][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../Projekte/NotPartofTheGame/Content/Movies/Default_Startup.mp4
+[2015.09.23-17.43.41:636][  0]LogAssetRegistry: FAssetRegistry took 0.0001 seconds to start up
+[2015.09.23-17.43.41:680][  0]SourceControl: Info Source control is disabled
+[2015.09.23-17.43.41:680][  0]SourceControl: Info Source control is disabled
+[2015.09.23-17.43.41:689][  0]SourceControl: Info Source control is disabled
+[2015.09.23-17.43.41:869][  0]LogObj: 25913 objects as part of root set at end of initial load.
+[2015.09.23-17.43.41:869][  0]LogUObjectAllocator: 5218488 out of 0 bytes used by permanent object pool.
+[2015.09.23-17.43.41:937][  0]LogAutomationTest:Warning: ERR: Transient text cannot be serialized "Testing Transient serialization detection".
+[2015.09.23-17.43.41:937][  0]LogEngine: Initializing Engine...
+[2015.09.23-17.43.41:940][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.23-17.43.41:941][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.09.23-17.43.42:029][  0]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.23-17.43.42:037][  0]LogInit: FAudioDevice initialized.
+[2015.09.23-17.43.42:048][  0]LogInit: Texture streaming: Disabled
+[2015.09.23-17.43.42:111][  0]LogNet: Browse: /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level?Name=Player
+[2015.09.23-17.43.42:111][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level?Name=Player
+[2015.09.23-17.43.42:122][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000008308ACF560
+[2015.09.23-17.43.42:130][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.23-17.43.42:130][  0]LogMemory: Process Physical Memory: 337.52 MB used, 337.52 MB peak
+[2015.09.23-17.43.42:130][  0]LogMemory: Process Virtual Memory: 373.89 MB used, 373.89 MB peak
+[2015.09.23-17.43.42:130][  0]LogMemory: Physical Memory: 3166.10 MB used, 12270.45 MB total
+[2015.09.23-17.43.42:130][  0]LogMemory: Virtual Memory: 895.83 MB used, 134217728.00 MB total
+[2015.09.23-17.43.42:130][  0]LogMemory: 
+[2015.09.23-17.43.42:130][  0]Allocator Stats for TBB: (not implemented)
+[2015.09.23-17.43.42:421][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue Z".
+[2015.09.23-17.43.42:421][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue Y".
+[2015.09.23-17.43.42:421][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue X".
+[2015.09.23-17.43.42:592][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue Z".
+[2015.09.23-17.43.42:592][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue Y".
+[2015.09.23-17.43.42:592][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue X".
+[2015.09.23-17.43.42:695][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue Z".
+[2015.09.23-17.43.42:695][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue Y".
+[2015.09.23-17.43.42:695][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue X".
+[2015.09.23-17.43.42:767][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue Z".
+[2015.09.23-17.43.42:767][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue Y".
+[2015.09.23-17.43.42:767][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue X".
+[2015.09.23-17.43.43:163][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Roll".
+[2015.09.23-17.43.43:163][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Yaw".
+[2015.09.23-17.43.43:163][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Pitch".
+[2015.09.23-17.43.43:163][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Roll".
+[2015.09.23-17.43.43:163][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Yaw".
+[2015.09.23-17.43.43:163][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Pitch".
+[2015.09.23-17.43.43:168][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue Z".
+[2015.09.23-17.43.43:168][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue Y".
+[2015.09.23-17.43.43:168][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue X".
+[2015.09.23-17.43.43:172][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewLocation Z".
+[2015.09.23-17.43.43:172][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewLocation Y".
+[2015.09.23-17.43.43:172][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewLocation X".
+[2015.09.23-17.43.43:243][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Roll".
+[2015.09.23-17.43.43:243][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Yaw".
+[2015.09.23-17.43.43:243][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Pitch".
+[2015.09.23-17.43.43:243][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Roll".
+[2015.09.23-17.43.43:243][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Yaw".
+[2015.09.23-17.43.43:243][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewRotation Pitch".
+[2015.09.23-17.43.43:248][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue Z".
+[2015.09.23-17.43.43:248][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue Y".
+[2015.09.23-17.43.43:248][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "ReturnValue X".
+[2015.09.23-17.43.43:251][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewLocation Z".
+[2015.09.23-17.43.43:251][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewLocation Y".
+[2015.09.23-17.43.43:251][  0]LogProperty:Warning: ERR: Transient text cannot be serialized "NewLocation X".
+[2015.09.23-17.43.44:456][  0]LogAIModule: Creating AISystem for world Testing_Level
+[2015.09.23-17.43.44:456][  0]LogWorld: Game class is '2DSideScrollerGameMode_C'
+[2015.09.23-17.43.44:545][  0]LogWorld: Bringing World /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level up for play (max tick rate 0) at 2015.09.23-19.43.44
+[2015.09.23-17.43.44:563][  0]LogWorld: Bringing up level for play took: 0.104015
+[2015.09.23-17.43.44:567][  0]LogInit:Display: Game Engine Initialized.
+[2015.09.23-17.43.44:792][  0]LogLoad: Full Startup: 8.10 seconds (BP compile: 1.20 seconds)
+[2015.09.23-17.43.44:809][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.23-17.43.44:809][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.23-17.43.44:812][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2015.09.23-17.43.44:940][  0]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:2).
+[2015.09.23-17.43.45:062][  1]LogScript:Warning: Accessed None 'PointA'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_6
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:007F
+[2015.09.23-17.43.45:062][  1]LogScript:Warning: Accessed None 'PointB'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_6
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:00AA
+[2015.09.23-17.43.45:078][  2]LogScript:Warning: Accessed None 'PointA'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_6
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:007F
+[2015.09.23-17.43.45:078][  2]LogScript:Warning: Accessed None 'PointB'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_6
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:00AA
+[2015.09.23-17.43.45:099][  3]LogScript:Warning: Accessed None 'PointA'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_6
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:007F
+[2015.09.23-17.43.45:099][  3]LogScript:Warning: Accessed None 'PointB'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_6
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:00AA
+[2015.09.23-17.43.45:115][  4]LogScript:Warning: Accessed None 'PointA'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_6
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:007F
+[2015.09.23-17.43.45:115][  4]LogScript:Warning: Accessed None 'PointB'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_6
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:00AA
+[2015.09.23-17.43.45:131][  5]LogScript:Warning: Accessed None 'PointA'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_6
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:007F
+[2015.09.23-17.43.45:131][  5]LogScript:Warning: Accessed None 'PointB'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_6
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:00AA
+[2015.09.23-17.43.45:147][  6]LogScript:Warning: Accessed None 'PointA'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_6
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:007F
+[2015.09.23-17.43.45:147][  6]LogScript:Warning: Accessed None 'PointB'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_6
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:00AA
+[2015.09.23-17.43.45:162][  7]LogScript:Warning: Accessed None 'PointA'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_6
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:007F
+[2015.09.23-17.43.45:163][  7]LogScript:Warning: Accessed None 'PointB'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_6
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:00AA
+[2015.09.23-17.43.45:180][  8]LogScript:Warning: Accessed None 'PointA'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_6
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:007F
+[2015.09.23-17.43.45:180][  8]LogScript:Warning: Accessed None 'PointB'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_6
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:00AA
+[2015.09.23-17.43.45:196][  9]LogScript:Warning: Accessed None 'PointA'
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_6
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf:007F
+[2015.09.23-17.43.46:827][110]LogScriptCore: Script call stack:
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:BndEvt__see cone_K2Node_ComponentBoundEvent_90_ComponentBeginOverlapSignature__DelegateSignature
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:ExecuteUbergraph_wolf
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:start the fight
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight
+
+[2015.09.23-17.43.46:827][110]LogScript:Warning: Infinite script recursion (250 calls) detected
+	wolf_C /Temp/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.Testing_Level:PersistentLevel.wolf_C_4
+	Function /Game/NPOTG/Blueprints/Charaktere/wolf.wolf_C:construct fight:0000
+[2015.09.23-17.43.46:840][111]LogBlueprintUserMessages: 9.838709
+[2015.09.23-17.43.46:840][111]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.46:856][112]LogBlueprintUserMessages: 9.758063
+[2015.09.23-17.43.46:856][112]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.46:872][113]LogBlueprintUserMessages: 9.677418
+[2015.09.23-17.43.46:872][113]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.46:888][114]LogBlueprintUserMessages: 9.596772
+[2015.09.23-17.43.46:888][114]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.46:904][115]LogBlueprintUserMessages: 9.516127
+[2015.09.23-17.43.46:904][115]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.46:920][116]LogBlueprintUserMessages: 9.435481
+[2015.09.23-17.43.46:920][116]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.46:937][117]LogBlueprintUserMessages: 9.354836
+[2015.09.23-17.43.46:937][117]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.46:953][118]LogBlueprintUserMessages: 9.27419
+[2015.09.23-17.43.46:953][118]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.46:969][119]LogBlueprintUserMessages: 9.193544
+[2015.09.23-17.43.46:969][119]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.46:985][120]LogBlueprintUserMessages: 9.112899
+[2015.09.23-17.43.46:985][120]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:002][121]LogBlueprintUserMessages: 9.032253
+[2015.09.23-17.43.47:002][121]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:018][122]LogBlueprintUserMessages: 8.951608
+[2015.09.23-17.43.47:018][122]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:033][123]LogBlueprintUserMessages: 8.870962
+[2015.09.23-17.43.47:033][123]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:049][124]LogBlueprintUserMessages: 8.790317
+[2015.09.23-17.43.47:049][124]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:065][125]LogBlueprintUserMessages: 8.709671
+[2015.09.23-17.43.47:065][125]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:082][126]LogBlueprintUserMessages: 8.629025
+[2015.09.23-17.43.47:082][126]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:098][127]LogBlueprintUserMessages: 8.54838
+[2015.09.23-17.43.47:098][127]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:114][128]LogBlueprintUserMessages: 8.467734
+[2015.09.23-17.43.47:114][128]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:130][129]LogBlueprintUserMessages: 8.387089
+[2015.09.23-17.43.47:130][129]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:146][130]LogBlueprintUserMessages: 8.306443
+[2015.09.23-17.43.47:146][130]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:162][131]LogBlueprintUserMessages: 8.225798
+[2015.09.23-17.43.47:162][131]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:178][132]LogBlueprintUserMessages: 8.145152
+[2015.09.23-17.43.47:178][132]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:195][133]LogBlueprintUserMessages: 8.064507
+[2015.09.23-17.43.47:195][133]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:211][134]LogBlueprintUserMessages: 7.98386
+[2015.09.23-17.43.47:211][134]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:227][135]LogBlueprintUserMessages: 7.903214
+[2015.09.23-17.43.47:227][135]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:243][136]LogBlueprintUserMessages: 7.822568
+[2015.09.23-17.43.47:243][136]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:259][137]LogBlueprintUserMessages: 7.741922
+[2015.09.23-17.43.47:259][137]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:275][138]LogBlueprintUserMessages: 7.661276
+[2015.09.23-17.43.47:275][138]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:291][139]LogBlueprintUserMessages: 7.58063
+[2015.09.23-17.43.47:291][139]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:307][140]LogBlueprintUserMessages: 7.499984
+[2015.09.23-17.43.47:307][140]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:324][141]LogBlueprintUserMessages: 7.419338
+[2015.09.23-17.43.47:324][141]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:340][142]LogBlueprintUserMessages: 7.338692
+[2015.09.23-17.43.47:340][142]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:356][143]LogBlueprintUserMessages: 7.258046
+[2015.09.23-17.43.47:356][143]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:372][144]LogBlueprintUserMessages: 7.1774
+[2015.09.23-17.43.47:372][144]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:388][145]LogBlueprintUserMessages: 7.096754
+[2015.09.23-17.43.47:389][145]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:404][146]LogBlueprintUserMessages: 7.016108
+[2015.09.23-17.43.47:404][146]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:421][147]LogBlueprintUserMessages: 6.935462
+[2015.09.23-17.43.47:421][147]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:436][148]LogBlueprintUserMessages: 6.854816
+[2015.09.23-17.43.47:436][148]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:453][149]LogBlueprintUserMessages: 6.77417
+[2015.09.23-17.43.47:453][149]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:469][150]LogBlueprintUserMessages: 6.693524
+[2015.09.23-17.43.47:469][150]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:485][151]LogBlueprintUserMessages: 6.612878
+[2015.09.23-17.43.47:485][151]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:501][152]LogBlueprintUserMessages: 6.532232
+[2015.09.23-17.43.47:501][152]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:517][153]LogBlueprintUserMessages: 6.451586
+[2015.09.23-17.43.47:518][153]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:534][154]LogBlueprintUserMessages: 6.37094
+[2015.09.23-17.43.47:534][154]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:550][155]LogBlueprintUserMessages: 6.290294
+[2015.09.23-17.43.47:550][155]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:565][156]LogBlueprintUserMessages: 6.209648
+[2015.09.23-17.43.47:565][156]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:582][157]LogBlueprintUserMessages: 6.129002
+[2015.09.23-17.43.47:582][157]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:598][158]LogBlueprintUserMessages: 6.048356
+[2015.09.23-17.43.47:598][158]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:615][159]LogBlueprintUserMessages: 5.96771
+[2015.09.23-17.43.47:615][159]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:631][160]LogBlueprintUserMessages: 5.887064
+[2015.09.23-17.43.47:631][160]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:647][161]LogBlueprintUserMessages: 5.806417
+[2015.09.23-17.43.47:647][161]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:663][162]LogBlueprintUserMessages: 5.725771
+[2015.09.23-17.43.47:663][162]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:678][163]LogBlueprintUserMessages: 5.645125
+[2015.09.23-17.43.47:678][163]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:694][164]LogBlueprintUserMessages: 5.564479
+[2015.09.23-17.43.47:694][164]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:710][165]LogBlueprintUserMessages: 5.483833
+[2015.09.23-17.43.47:710][165]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:727][166]LogBlueprintUserMessages: 5.403187
+[2015.09.23-17.43.47:727][166]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:743][167]LogBlueprintUserMessages: 5.322541
+[2015.09.23-17.43.47:743][167]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:759][168]LogBlueprintUserMessages: 5.241895
+[2015.09.23-17.43.47:759][168]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:775][169]LogBlueprintUserMessages: 5.161249
+[2015.09.23-17.43.47:775][169]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:792][170]LogBlueprintUserMessages: 5.080603
+[2015.09.23-17.43.47:792][170]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:808][171]LogBlueprintUserMessages: 4.999957
+[2015.09.23-17.43.47:808][171]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:824][172]LogBlueprintUserMessages: 4.919311
+[2015.09.23-17.43.47:824][172]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:840][173]LogBlueprintUserMessages: 4.838665
+[2015.09.23-17.43.47:840][173]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:856][174]LogBlueprintUserMessages: 4.758019
+[2015.09.23-17.43.47:856][174]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:872][175]LogBlueprintUserMessages: 4.677373
+[2015.09.23-17.43.47:872][175]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:888][176]LogBlueprintUserMessages: 4.596727
+[2015.09.23-17.43.47:888][176]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:904][177]LogBlueprintUserMessages: 4.516081
+[2015.09.23-17.43.47:904][177]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:920][178]LogBlueprintUserMessages: 4.435435
+[2015.09.23-17.43.47:920][178]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:936][179]LogBlueprintUserMessages: 4.354789
+[2015.09.23-17.43.47:936][179]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:952][180]LogBlueprintUserMessages: 4.274143
+[2015.09.23-17.43.47:952][180]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:969][181]LogBlueprintUserMessages: 4.193497
+[2015.09.23-17.43.47:970][181]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.47:985][182]LogBlueprintUserMessages: 4.112851
+[2015.09.23-17.43.47:986][182]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.48:002][183]LogBlueprintUserMessages: 4.032205
+[2015.09.23-17.43.48:002][183]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.48:018][184]LogBlueprintUserMessages: 3.951559
+[2015.09.23-17.43.48:018][184]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.48:033][185]LogBlueprintUserMessages: 3.870913
+[2015.09.23-17.43.48:033][185]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.48:049][186]LogBlueprintUserMessages: 3.790267
+[2015.09.23-17.43.48:049][186]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.48:065][187]LogBlueprintUserMessages: 3.709621
+[2015.09.23-17.43.48:065][187]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.48:082][188]LogBlueprintUserMessages: 3.628976
+[2015.09.23-17.43.48:082][188]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.48:098][189]LogBlueprintUserMessages: 3.54833
+[2015.09.23-17.43.48:098][189]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.48:114][190]LogBlueprintUserMessages: 3.467684
+[2015.09.23-17.43.48:114][190]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.48:131][191]LogBlueprintUserMessages: 3.387038
+[2015.09.23-17.43.48:131][191]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.48:147][192]LogBlueprintUserMessages: 3.306392
+[2015.09.23-17.43.48:147][192]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.48:162][193]LogBlueprintUserMessages: 3.225747
+[2015.09.23-17.43.48:162][193]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.48:178][194]LogBlueprintUserMessages: 3.145101
+[2015.09.23-17.43.48:179][194]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.48:195][195]LogBlueprintUserMessages: 3.064455
+[2015.09.23-17.43.48:195][195]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.48:211][196]LogBlueprintUserMessages: 2.983809
+[2015.09.23-17.43.48:211][196]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.48:227][197]LogBlueprintUserMessages: 2.903163
+[2015.09.23-17.43.48:227][197]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.48:243][198]LogBlueprintUserMessages: 2.822518
+[2015.09.23-17.43.48:243][198]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.48:259][199]LogBlueprintUserMessages: 2.741872
+[2015.09.23-17.43.48:259][199]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.48:276][200]LogBlueprintUserMessages: 2.661226
+[2015.09.23-17.43.48:276][200]LogBlueprintUserMessages: PRINT
+[2015.09.23-17.43.48:291][201]LogBlueprintUserMessages: zukasdfuikfsfgiHFIGASIDILUgqregfFEWERFARG
+[2015.09.23-17.43.56:770][726]Closing by request
+[2015.09.23-17.43.56:770][726]LogWindows: FPlatformMisc::RequestExit(0)
+[2015.09.23-17.43.56:989][727]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.23-17.43.56:989][727]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.23-17.43.56:996][727]LogExit: Preparing to exit.
+[2015.09.23-17.43.57:118][727]LogExit: Game engine shut down
+[2015.09.23-17.43.57:123][727]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000083077F6660
+[2015.09.23-17.43.57:292][727]LogExit: Object subsystem successfully closed.
+[2015.09.23-17.43.57:305][727]LogD3D11RHI: Shutdown
+[2015.09.23-17.43.57:305][727]LogD3D11RHI: CleanupD3DDevice
+[2015.09.23-17.43.57:372][727]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.09.23-17.43.57:384][727]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (109)
+[2015.09.23-17.43.57:824][727]LogModuleManager: Shutting down and abandoning module AutomationWorker (108)
+[2015.09.23-17.43.57:824][727]LogModuleManager: Shutting down and abandoning module CharacterAI (107)
+[2015.09.23-17.43.57:824][727]LogModuleManager: Shutting down and abandoning module AITestSuite (106)
+[2015.09.23-17.43.57:824][727]LogModuleManager: Shutting down and abandoning module GameplayDebugger (105)
+[2015.09.23-17.43.57:824][727]LogModuleManager: Shutting down and abandoning module AIModule (104)
+[2015.09.23-17.43.57:824][727]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (103)
+[2015.09.23-17.43.57:824][727]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (102)
+[2015.09.23-17.43.57:824][727]LogModuleManager: Shutting down and abandoning module ProfilerService (101)
+[2015.09.23-17.43.57:922][727]LogModuleManager: Shutting down and abandoning module TaskGraph (100)
+[2015.09.23-17.43.57:922][727]LogModuleManager: Shutting down and abandoning module SlateRemote (99)
+[2015.09.23-17.43.57:922][727]LogModuleManager: Shutting down and abandoning module SteamVRController (98)
+[2015.09.23-17.43.57:922][727]LogModuleManager: Shutting down and abandoning module SteamVR (97)
+[2015.09.23-17.43.57:922][727]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (96)
+[2015.09.23-17.43.57:922][727]LogModuleManager: Shutting down and abandoning module OculusRift (95)
+[2015.09.23-17.43.57:922][727]LogModuleManager: Shutting down and abandoning module LeapMotionController (94)
+[2015.09.23-17.43.57:928][727]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (93)
+[2015.09.23-17.43.57:928][727]LogModuleManager: Shutting down and abandoning module CableComponent (92)
+[2015.09.23-17.43.57:928][727]LogModuleManager: Shutting down and abandoning module DesktopPlatform (91)
+[2015.09.23-17.43.57:928][727]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2015.09.23-17.43.57:928][727]LogModuleManager: Shutting down and abandoning module HotReload (89)
+[2015.09.23-17.43.57:928][727]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (88)
+[2015.09.23-17.43.57:928][727]LogModuleManager: Shutting down and abandoning module UObjectPlugin (87)
+[2015.09.23-17.43.57:928][727]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (86)
+[2015.09.23-17.43.57:928][727]LogModuleManager: Shutting down and abandoning module SourceControl (85)
+[2015.09.23-17.43.57:928][727]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (84)
+[2015.09.23-17.43.57:928][727]LogModuleManager: Shutting down and abandoning module BlankPlugin (83)
+[2015.09.23-17.43.57:928][727]LogModuleManager: Shutting down and abandoning module UdpMessaging (82)
+[2015.09.23-17.43.57:928][727]LogModuleManager: Shutting down and abandoning module AssetRegistry (81)
+[2015.09.23-17.43.57:928][727]LogModuleManager: Shutting down and abandoning module SubstanceCore (80)
+[2015.09.23-17.43.57:928][727]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.09.23-17.43.57:928][727]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.09.23-17.43.57:930][727]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.09.23-17.43.57:930][727]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.09.23-17.43.57:931][727]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.09.23-17.43.57:931][727]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.09.23-17.43.57:931][727]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.09.23-17.43.57:931][727]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.09.23-17.43.57:931][727]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.09.23-17.43.57:931][727]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.09.23-17.43.57:931][727]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.09.23-17.43.57:931][727]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.09.23-17.43.57:931][727]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.09.23-17.43.57:931][727]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.09.23-17.43.57:931][727]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.09.23-17.43.57:931][727]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.09.23-17.43.57:931][727]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.09.23-17.43.57:933][727]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.09.23-17.43.57:933][727]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.09.23-17.43.57:933][727]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.09.23-17.43.57:933][727]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.09.23-17.43.57:933][727]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.09.23-17.43.57:933][727]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.09.23-17.43.57:933][727]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.09.23-17.43.57:933][727]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.09.23-17.43.57:933][727]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.09.23-17.43.57:933][727]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.09.23-17.43.58:401][727]LogDerivedDataCache: Shutdown
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.09.23-17.43.58:401][727]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.09.23-17.43.58:402][727]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.09.23-17.43.58:402][727]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.09.23-17.43.58:402][727]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.09.23-17.43.58:402][727]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.09.23-17.43.58:402][727]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.09.23-17.43.58:402][727]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.09.23-17.43.58:402][727]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.09.23-17.43.58:402][727]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.09.23-17.43.58:402][727]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.09.23-17.43.58:402][727]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.09.23-17.43.58:402][727]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.09.23-17.43.58:403][727]LogExit: Exiting.
+[2015.09.23-17.43.58:404][727]Log file closed, 09/23/15 19:43:58

@@ -1,0 +1,437 @@
+﻿[2015.09.23-13.59.35:415][  0]Log file open, 09/23/15 15:59:35
+[2015.09.23-13.59.35:415][  0]LogInit:Display: Running engine without a game
+[2015.09.23-13.59.35:415][  0]LogInit:Display: Loading recent project file: ../../../../Projekte/NotPartofTheGame/NotPartofGame.uproject
+[2015.09.23-13.59.35:415][  0]LogInit:Display: RandInit(992426064) SRandInit(992426065).
+[2015.09.23-13.59.35:415][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.09.23-13.59.35:415][  0]LogStats: Stats thread started
+[2015.09.23-13.59.35:415][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.09.23-13.59.35:415][  0]LogInit: API Version: 2579680
+[2015.09.23-13.59.35:415][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.09.23-13.59.35:415][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.09.23-13.59.35:415][  0]LogInit: Build Configuration: Development
+[2015.09.23-13.59.35:415][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.09.23-13.59.35:415][  0]LogInit: Command line: 
+[2015.09.23-13.59.35:415][  0]LogInit: Base directory: C:/Users/Bodoo/Documents/Programmieren/4.8/Engine/Binaries/Win64/
+[2015.09.23-13.59.35:415][  0]LogInit: Rocket: 1
+[2015.09.23-13.59.35:446][  0]LogInit: Using libcurl 7.41.0
+[2015.09.23-13.59.35:446][  0]LogInit:  - built for x86_64-pc-win32
+[2015.09.23-13.59.35:447][  0]LogInit:  - supports SSL with WinSSL
+[2015.09.23-13.59.35:447][  0]LogInit:  - other features:
+[2015.09.23-13.59.35:447][  0]LogInit:      CURL_VERSION_SSL
+[2015.09.23-13.59.35:447][  0]LogInit:      CURL_VERSION_IPV6
+[2015.09.23-13.59.35:447][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.09.23-13.59.35:447][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.09.23-13.59.35:447][  0]LogInit:      CURL_VERSION_IDN
+[2015.09.23-13.59.35:447][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.09.23-13.59.35:447][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.09.23-13.59.35:447][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.09.23-13.59.35:447][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.09.23-13.59.35:447][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.09.23-13.59.35:458][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.09.23-13.59.35:531][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.09.23-13.59.35:538][  0]LogInit: Object subsystem initialized
+[2015.09.23-13.59.35:539][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=((Time=480.000000,Value=0.444000),(Time=720.000000,Value=0.666000),(Time=1080.000000,Value=1.000000),(Time=8640.000000,Value=8.000000))),ExternalCurve=None)'
+[2015.09.23-13.59.35:539][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Bodoo/Documents/Programmieren/Projekte/NotPartofTheGame/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.09.23-13.59.35:539][  0]LogConsoleManager:Warning: Console variable 'r.MSAA.CompositingSampleCount' wasn't set ('Scalability' has a lower priority than 'ProjectSetting')
+[2015.09.23-13.59.35:539][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.23-13.59.35:539][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.09.23-13.59.35:563][  0]LogInit: Computer: DESKTOP-GLF6O4V
+[2015.09.23-13.59.35:563][  0]LogInit: User: Bodoo
+[2015.09.23-13.59.35:563][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.09.23-13.59.35:563][  0]LogInit: High frequency timer resolution =3.215355 MHz
+[2015.09.23-13.59.35:563][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx)
+[2015.09.23-13.59.35:563][  0]LogMemory: Platform Memory Stats for Windows
+[2015.09.23-13.59.35:563][  0]LogMemory: Process Physical Memory: 51.20 MB used, 51.20 MB peak
+[2015.09.23-13.59.35:563][  0]LogMemory: Process Virtual Memory: 22.48 MB used, 24.38 MB peak
+[2015.09.23-13.59.35:563][  0]LogMemory: Physical Memory: 1809.66 MB used, 12270.45 MB total
+[2015.09.23-13.59.35:563][  0]LogMemory: Virtual Memory: 309.63 MB used, 134217728.00 MB total
+[2015.09.23-13.59.35:891][  0]LogTextLocalizationManager: The requested culture ('de_DE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.09.23-13.59.36:128][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Users/Bodoo/Documents/Programmieren/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Users/Bodoo/Documents/Programmieren/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.09.23-13.59.36:599][  0]LogD3D11RHI: Found D3D11 adapter 0: AMD Radeon HD 6800 Series (Feature Level 11_0)
+[2015.09.23-13.59.36:599][  0]LogD3D11RHI: Adapter has 1011MB of dedicated video memory, 0MB of dedicated system memory, and 3840MB of shared system memory, 1 output[s]
+[2015.09.23-13.59.36:600][  0]LogD3D11RHI: Found D3D11 adapter 1: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.09.23-13.59.36:600][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 6135MB of shared system memory, 0 output[s]
+[2015.09.23-13.59.36:600][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.09.23-13.59.36:603][  0]LogD3D11RHI: InitD3DDevice
+[2015.09.23-13.59.36:603][  0]LogD3D11RHI: !Direct3DDevice
+[2015.09.23-13.59.36:603][  0]LogRHI: Texture pool is 708 MB (70% of 1011 MB)
+[2015.09.23-13.59.36:609][  0]LogD3D11RHI: Async texture creation disabled: no driver support
+[2015.09.23-13.59.36:620][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.09.23-13.59.38:582][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.09.23-13.59.38:599][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.09.23-13.59.38:615][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.09.23-13.59.38:632][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.09.23-13.59.38:649][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.09.23-13.59.38:665][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.09.23-13.59.38:678][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.09.23-13.59.38:692][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.09.23-13.59.38:705][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.09.23-13.59.38:718][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.09.23-13.59.38:732][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.09.23-13.59.38:745][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.09.23-13.59.38:856][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.09.23-13.59.38:869][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.09.23-13.59.38:883][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.09.23-13.59.38:901][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.09.23-13.59.38:901][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.09.23-13.59.39:583][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.09.23-13.59.40:131][  0]LogDerivedDataCache: Loaded boot cache 0.55s 53MB C:/Users/Bodoo/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.09.23-13.59.40:131][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Bodoo/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.09.23-13.59.40:131][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Projekte/NotPartofTheGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.09.23-13.59.40:131][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.09.23-13.59.40:131][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Projekte/NotPartofTheGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.09.23-13.59.40:131][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.09.23-13.59.40:353][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.09.23-13.59.40:391][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Bodoo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.09.23-13.59.46:798][  0]LogInit: Selected Device Profile: [Windows]
+[2015.09.23-13.59.46:946][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.09.23-13.59.46:946][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.09.23-13.59.47:034][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.09.23-13.59.47:034][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.09.23-13.59.48:219][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.09.23-13.59.54:985][  0]LogAssetRegistry: FAssetRegistry took 0.0105 seconds to start up
+[2015.09.23-13.59.54:997][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.09.23-13.59.55:010][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.09.23-13.59.56:598][  0]SourceControl: Info Source control is disabled
+[2015.09.23-13.59.56:834][  0]SourceControl: Info Source control is disabled
+[2015.09.23-13.59.56:845][  0]SourceControl: Info Source control is disabled
+[2015.09.23-13.59.56:855][  0]SourceControl: Info Source control is disabled
+[2015.09.23-13.59.57:522][  0]LogObj: 26440 objects as part of root set at end of initial load.
+[2015.09.23-13.59.57:522][  0]LogUObjectAllocator: 5438856 out of 0 bytes used by permanent object pool.
+[2015.09.23-13.59.57:732][  0]LogEngine: Initializing Engine...
+[2015.09.23-13.59.57:734][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.09.23-13.59.57:747][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.09.23-13.59.58:191][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.09.23-13.59.58:196][  0]LogInit: XAudio2 using 'Lautsprecher (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.09.23-13.59.58:204][  0]LogInit: FAudioDevice initialized.
+[2015.09.23-13.59.58:233][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/Bodoo/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.09.23-13.59.58:246][  0]LogInit: Texture streaming: Disabled
+[2015.09.23-13.59.58:270][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.09.23-13.59.58:270][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.09.23-13.59.58:271][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 0359330b4a4de6cf49a2cc9879aa4f35||823e2c57-8ae8-4d61-a04c-15505c18bf02
+[2015.09.23-13.59.58:271][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.09.23-13.59.58:297][  0]LogInit: Transaction tracking system initialized
+[2015.09.23-13.59.58:424][  0]BlueprintLog: New page: Editor Load
+[2015.09.23-13.59.59:031][  0]LogLinker:Warning: Can't find file '/Game/PuzzleBP/PuzzleOverview'
+[2015.09.23-13.59.59:032][  0]LogLinker:Warning: Can't find file '/Game/PuzzleBP/PuzzleOverview'
+[2015.09.23-13.59.59:032][  0]LogLinker:Warning: Can't find file '/Game/PuzzleBP/PuzzleOverview'
+[2015.09.23-13.59.59:032][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/PuzzleBP/PuzzleOverview.PuzzleOverview_C'
+[2015.09.23-13.59.59:132][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.09.23-13.59.59:133][  0]LogConsoleResponse:Display: 
+[2015.09.23-14.00.01:336][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.09.23-14.00.01:749][  0]SourceControl: Info Source control is disabled
+[2015.09.23-14.00.01:749][  0]Cmd: MAP LOAD FILE="../../../../Projekte/NotPartofTheGame/Content/NPOTG/Maps/Testing_Level.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.09.23-14.00.01:822][  0]LightingResults: New page: Lighting Build
+[2015.09.23-14.00.01:835][  0]MapCheck: New page: Map Check
+[2015.09.23-14.00.01:835][  0]LightingResults: New page: Lighting Build
+[2015.09.23-14.00.01:844][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000037B0006F20
+[2015.09.23-14.00.03:550][  0]LogBlueprint:Warning: [Admin_Widget] CreatePinForVariable: 'X' variable not found. Base class was probably changed.
+[2015.09.23-14.00.03:550][  0]LogBlueprint:Warning: [Admin_Widget] CreatePinForVariable: 'Z' variable not found. Base class was probably changed.
+[2015.09.23-14.00.03:574][  0]LogBlueprint:Warning: [compiler Admin_Widget] Warning Could not find a variable named "Z" in 'Markimoo_C'.
+Make sure 'Markimoo_C' has been compiled for  Get Z 
+[2015.09.23-14.00.03:574][  0]LogBlueprint:Warning: [compiler Admin_Widget] Warning Could not find a variable named "X" in 'Markimoo_C'.
+Make sure 'Markimoo_C' has been compiled for  Get X 
+[2015.09.23-14.00.03:575][  0]LogBlueprint:Error: [compiler Admin_Widget] Error The property associated with  Z  could not be found
+[2015.09.23-14.00.03:575][  0]LogBlueprint:Error: [compiler Admin_Widget] Error The property associated with  X  could not be found
+[2015.09.23-14.00.03:588][  0]LogBlueprint:Warning: [compiler Admin_Widget] Warning [0030.67] Compile of Admin_Widget failed. 2 Fatal Issue(s) 2 Warning(s) [in 32 ms]
+[2015.09.23-14.00.03:588][  0]LogBlueprint:Warning: [compiler Admin_Widget] Warning [0030.67] Compile of Admin_Widget failed. 2 Fatal Issue(s) 3 Warning(s) [in 0 ms]
+[2015.09.23-14.00.03:588][  0]LogBlueprint:Warning: [compiler Admin_Widget] Warning [0030.67] Compile of Admin_Widget failed. 2 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2015.09.23-14.00.08:009][  0]LogAIModule: Creating AISystem for world Testing_Level
+[2015.09.23-14.00.08:011][  0]LogPrimitiveComponent: Zero scaling not supported (/Game/NPOTG/Maps/Testing_Level.Testing_Level:PersistentLevel.PlayerStart.CollisionCapsule)
+[2015.09.23-14.00.08:122][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.09.23-14.00.08:126][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.09.23-14.00.08:192][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 66.839ms to complete.
+[2015.09.23-14.00.08:193][  0]LogFileHelpers: Loading map 'Testing_Level' took 6.442
+[2015.09.23-14.00.08:437][  0]LogCollectionManager: Loaded 0 collections in 0.001717 seconds
+[2015.09.23-14.00.08:445][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 1807 classes and 307 folders.
+[2015.09.23-14.00.08:493][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2015.09.23-14.00.08:641][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2015.09.23-14.00.08:658][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.09.23-14.00.08:860][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.09.23-14.00.08:862][  0]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.00.08:864][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.09.23-14.00.08:887][  0]LogLoad: Full Startup: 35.97 seconds (BP compile: 1.61 seconds)
+[2015.09.23-14.00.08:896][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.23-14.00.08:896][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.09.23-14.00.08:897][  0]LoadErrors:Error: Error Failed import for FloatProperty /Game/NPOTG/Blueprints/Charaktere/Markimoo.Markimoo_C:X
+[2015.09.23-14.00.08:897][  0]LoadErrors:Error: Error Failed import for FloatProperty /Game/NPOTG/Blueprints/Charaktere/Markimoo.Markimoo_C:Z
+[2015.09.23-14.00.09:067][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.09.23-14.00.09:217][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2015.09.23-14.00.09:220][  0]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.00.09:464][  0]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:2).
+[2015.09.23-14.00.10:040][  9]LogAssetRegistry: Asset discovery search completed in 15.0658 seconds
+[2015.09.23-14.00.10:861][103]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.02.38:034][834]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.02.38:063][834]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.02.38:103][834]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.23-14.02.38:285][834]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.09.23-14.02.50:958][536]LogRenderer: Reallocating scene render targets to support 1208x712 (Frame:3985).
+[2015.09.23-14.03.20:656][164]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.03.50:932][298]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.03.53:510][470]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.03.54:576][470]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.03.54:593][470]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPOTG/Blueprints/Charaktere/wolf" FILE="../../../../Projekte/NotPartofTheGame/Content/NPOTG/Blueprints/Charaktere/wolf.uasset" SILENT=true
+[2015.09.23-14.03.54:969][470]LogSavePackage: Save=191.173294ms
+[2015.09.23-14.03.54:969][470]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/wolfBED897BE4A148D54E0118C8EF021A168.tmp' to '../../../../Projekte/NotPartofTheGame/Content/NPOTG/Blueprints/Charaktere/wolf.uasset'
+[2015.09.23-14.03.55:053][470]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.03.55:790][470]LogSavePackage: Save=654.313782ms
+[2015.09.23-14.03.55:790][470]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/UEDPCTesting_Level0F393419477B1FE742944EA6228E5D18.tmp' to '../../../../Projekte/NotPartofTheGame/Saved/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.umap'
+[2015.09.23-14.04.50:280][901]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.04.51:218][955]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.04.56:079][278]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.04.58:351][459]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.05.00:496][621]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.05.01:607][621]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.05.01:622][621]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPOTG/Blueprints/Charaktere/wolf" FILE="../../../../Projekte/NotPartofTheGame/Content/NPOTG/Blueprints/Charaktere/wolf.uasset" SILENT=true
+[2015.09.23-14.05.01:876][621]LogSavePackage: Save=198.003326ms
+[2015.09.23-14.05.01:876][621]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/wolfD21BE8D94864887AA3F37C8272DBAB8D.tmp' to '../../../../Projekte/NotPartofTheGame/Content/NPOTG/Blueprints/Charaktere/wolf.uasset'
+[2015.09.23-14.05.01:919][621]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.05.02:643][621]LogSavePackage: Save=648.996765ms
+[2015.09.23-14.05.02:643][621]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/UEDPCTesting_LevelC3EAFB0D4BDCDAB34629C68483F883A1.tmp' to '../../../../Projekte/NotPartofTheGame/Saved/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.umap'
+[2015.09.23-14.05.56:339][116]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.05.57:088][116]LogSavePackage: Save=675.303650ms
+[2015.09.23-14.05.57:088][116]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/UEDPCTesting_Level940E656543FBC401DE46E5B41E57B93A.tmp' to '../../../../Projekte/NotPartofTheGame/Saved/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.umap'
+[2015.09.23-14.10.16:326][796]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.10.29:603][549]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.09.23-14.10.30:724][675]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.10.30:745][675]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.13.59:626][  2]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.14.27:826][ 70]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.15.14:407][643]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.15.14:972][677]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.15.28:851][777]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.15.30:957][943]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.15.31:448][982]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.15.34:018][193]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.15.41:312][771]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.15.41:945][816]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.15.44:895][ 53]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.15.45:510][105]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.15.45:982][135]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.16.30:497][127]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.17.15:122][579]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.17.17:209][741]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000037A19C9BC0
+[2015.09.23-14.17.17:210][741]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000037E1F7ADE0
+[2015.09.23-14.17.17:236][741]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.17.17:977][741]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.17.18:001][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPOTG/Blueprints/Charaktere/Markimoo" FILE="../../../../Projekte/NotPartofTheGame/Content/NPOTG/Blueprints/Charaktere/Markimoo.uasset" SILENT=true
+[2015.09.23-14.17.18:338][741]LogSavePackage: Save=268.583405ms
+[2015.09.23-14.17.18:339][741]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/MarkimooA6F0712B42FC116BA053DF866F2358A1.tmp' to '../../../../Projekte/NotPartofTheGame/Content/NPOTG/Blueprints/Charaktere/Markimoo.uasset'
+[2015.09.23-14.17.18:350][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPOTG/Blueprints/Charaktere/wolf" FILE="../../../../Projekte/NotPartofTheGame/Content/NPOTG/Blueprints/Charaktere/wolf.uasset" SILENT=true
+[2015.09.23-14.17.18:608][741]LogSavePackage: Save=197.950150ms
+[2015.09.23-14.17.18:608][741]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/wolfC191759A4DAB50541FCE34A604CC467F.tmp' to '../../../../Projekte/NotPartofTheGame/Content/NPOTG/Blueprints/Charaktere/wolf.uasset'
+[2015.09.23-14.17.18:656][741]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.17.19:420][741]LogSavePackage: Save=674.097595ms
+[2015.09.23-14.17.19:420][741]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/UEDPCTesting_Level4B3EC6E9421D6ADB0842BFA2D2C7CB04.tmp' to '../../../../Projekte/NotPartofTheGame/Saved/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.umap'
+[2015.09.23-14.17.51:143][109]Cmd: TRANSACTION UNDO
+[2015.09.23-14.17.51:177][109]LogEditorTransaction: Undo Create Pin Link
+[2015.09.23-14.17.51:242][109]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.17.51:964][151]Cmd: TRANSACTION UNDO
+[2015.09.23-14.17.51:964][151]LogEditorTransaction: Undo Delete current selection
+[2015.09.23-14.17.53:491][257]BlueprintLog: New page: Compile wolf
+[2015.09.23-14.17.53:794][257]BlueprintEditorCompileResults: Info [1100.87] Compile of wolf successful! [in 302 ms]
+[2015.09.23-14.17.54:337][287]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.17.55:576][287]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.17.55:599][287]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/NPOTG/Blueprints/Charaktere/wolf" FILE="../../../../Projekte/NotPartofTheGame/Content/NPOTG/Blueprints/Charaktere/wolf.uasset" SILENT=true
+[2015.09.23-14.17.55:852][287]LogSavePackage: Save=197.500427ms
+[2015.09.23-14.17.55:852][287]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/wolf33D8ED7E4F95ACC669F87CBD38793AAA.tmp' to '../../../../Projekte/NotPartofTheGame/Content/NPOTG/Blueprints/Charaktere/wolf.uasset'
+[2015.09.23-14.17.55:896][287]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.17.56:615][287]LogSavePackage: Save=642.662781ms
+[2015.09.23-14.17.56:615][287]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/UEDPCTesting_Level8B51347A4F30199B644487ADBD8E6C2D.tmp' to '../../../../Projekte/NotPartofTheGame/Saved/Autosaves/Game/NPOTG/Maps/UEDPCTesting_Level.umap'
+[2015.09.23-14.18.11:831][511]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.18.20:831][538]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.18.21:744][538]LogSavePackage: Save=687.626709ms
+[2015.09.23-14.18.21:744][538]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/Testing_Level_Auto1DEB3A7C5495117FB9AF465B128F4A1BC.tmp' to '../../../../Projekte/NotPartofTheGame/Saved/Autosaves/Game/NPOTG/Maps/Testing_Level_Auto1.umap'
+[2015.09.23-14.18.21:748][538]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NPOTG/Maps/Testing_Level' took 0.797
+[2015.09.23-14.18.21:748][538]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.797
+[2015.09.23-14.19.03:024][ 95]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.20.28:496][866]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.20.28:839][894]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.20.33:199][231]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.20.40:455][830]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.20.45:312][336]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.20.45:689][363]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.20.49:512][676]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.21.12:618][745]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.21.13:812][857]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.21.35:950][721]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.21.36:970][809]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.21.47:165][552]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.21.47:822][606]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.21.49:425][747]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.21.52:227][993]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.22.55:039][508]LogEditorTransaction: Undo Delete current selection
+[2015.09.23-14.22.55:100][508]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.23.03:203][131]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.23.06:934][444]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.23.08:045][552]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/NPOTG/Blueprints/Charaktere/wolf.wolf:EventGraph.K2Node_VariableSet_1815 or K2Node_VariableSet /Game/NPOTG/Blueprints/Charaktere/wolf.wolf:construct fight.K2Node_VariableSet_1815
+[2015.09.23-14.23.08:045][552]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/NPOTG/Blueprints/Charaktere/wolf.wolf:EventGraph.K2Node_CallFunction_5174 or K2Node_CallFunction /Game/NPOTG/Blueprints/Charaktere/wolf.wolf:construct fight.K2Node_CallFunction_5174
+[2015.09.23-14.23.08:045][552]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/NPOTG/Blueprints/Charaktere/Markimoo.Markimoo:EventGraph.K2Node_CallFunction_9537 or K2Node_CallFunction /Game/NPOTG/Blueprints/Charaktere/wolf.wolf:EventGraph.K2Node_CallFunction_9537
+[2015.09.23-14.23.08:045][552]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/NPOTG/Blueprints/Charaktere/Markimoo.Markimoo:EventGraph.K2Node_CallFunction_9537 or K2Node_CallFunction /Game/NPOTG/Blueprints/Charaktere/wolf.wolf:construct fight.K2Node_CallFunction_9537
+[2015.09.23-14.23.08:046][552]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/NPOTG/Blueprints/Charaktere/wolf.wolf:EventGraph.K2Node_DynamicCast_596 or K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_596
+[2015.09.23-14.23.10:325][764]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.23.26:785][236]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.23.27:385][276]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.23.31:983][618]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.23.46:438][878]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.23.48:714][ 60]BlueprintLog: New page: Compile wolf
+[2015.09.23-14.23.48:804][ 60]LogBlueprint:Error: [compiler wolf] Error This blueprint (self) is not a Markimoo_C, therefore ' Target ' must have a connection.
+[2015.09.23-14.23.48:804][ 60]LogBlueprint:Error: [compiler wolf] Error Variable node  Set Direction  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2015.09.23-14.23.48:989][ 60]LogBlueprint:Warning: [compiler wolf] Warning [1456.07] Compile of wolf failed. 2 Fatal Issue(s) 0 Warning(s) [in 274 ms]
+[2015.09.23-14.23.48:989][ 60]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Markimoo_C, therefore ' Target ' must have a connection.
+[2015.09.23-14.23.48:989][ 60]BlueprintEditorCompileResults:Error: Error Variable node  Set Direction  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2015.09.23-14.23.48:989][ 60]BlueprintEditorCompileResults:Warning: Warning [1456.07] Compile of wolf failed. 2 Fatal Issue(s) 0 Warning(s) [in 274 ms]
+[2015.09.23-14.23.52:333][327]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.23.54:643][504]BlueprintLog: New page: Compile wolf
+[2015.09.23-14.23.54:847][504]BlueprintEditorCompileResults: Info [1461.92] Compile of wolf successful! [in 203 ms]
+[2015.09.23-14.24.52:339][615]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.24.56:063][991]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.24.59:437][342]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.25.03:997][824]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.25.12:615][636]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.25.13:104][679]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.25.18:225][163]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.25.18:813][218]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.25.20:165][341]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.25.22:511][561]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.25.35:456][811]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.25.36:967][957]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.25.41:601][393]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.25.54:336][608]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.25.54:965][662]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.26.00:231][ 96]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.26.00:914][155]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.26.35:551][226]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.26.36:409][296]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.26.38:118][444]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.26.38:622][479]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.26.44:939][942]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.26.56:697][850]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.27.01:247][162]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.27.03:315][341]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.27.03:379][341]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.27.09:264][891]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.27.09:593][914]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.27.23:190][ 76]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.27.24:115][160]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.27.24:834][222]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.27.39:771][475]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.27.41:337][606]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.27.50:325][366]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.27.50:643][387]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.27.55:855][761]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.29.14:610][919]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.29.15:577][  8]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.29.17:743][207]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.29.18:414][267]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.29.23:587][758]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.29.24:534][845]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.29.26:140][989]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.29.41:383][390]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.29.47:057][899]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.29.47:612][943]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.30.00:055][832]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.30.04:822][194]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.30.05:201][223]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.30.12:899][804]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.30.14:300][920]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.30.17:827][194]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.30.19:498][334]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.30.25:515][659]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.30.26:349][726]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.30.28:225][766]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.30.32:915][123]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.30.36:841][399]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.30.39:141][566]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.30.51:714][972]BlueprintLog: New page: Compile wolf
+[2015.09.23-14.30.51:808][972]LogBlueprint:Error: [compiler wolf] Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2015.09.23-14.30.52:253][972]LogBlueprint:Warning: [compiler wolf] Warning [1879.33] Compile of wolf failed. 1 Fatal Issue(s) 0 Warning(s) [in 539 ms]
+[2015.09.23-14.30.52:253][972]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a UserWidget, therefore ' Target ' must have a connection.
+[2015.09.23-14.30.52:253][972]BlueprintEditorCompileResults:Warning: Warning [1879.33] Compile of wolf failed. 1 Fatal Issue(s) 0 Warning(s) [in 539 ms]
+[2015.09.23-14.30.54:505][146]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.31.01:130][688]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.31.04:052][933]BlueprintLog: New page: Compile wolf
+[2015.09.23-14.31.04:282][933]BlueprintEditorCompileResults: Info [1891.36] Compile of wolf successful! [in 229 ms]
+[2015.09.23-14.31.41:907][363]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.31.42:469][403]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.31.48:747][990]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.31.53:767][462]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.32.01:052][ 97]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.32.06:143][533]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.32.06:679][580]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.32.09:060][803]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.32.10:711][955]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.32.16:178][481]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.32.16:547][510]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.32.38:795][352]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.32.39:498][413]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.32.43:957][817]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.32.44:487][847]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.32.52:401][498]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.32.54:006][653]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.33.05:341][637]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.33.13:944][276]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.33.14:481][307]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.33.19:680][713]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.33.27:664][443]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.33.28:372][492]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.33.33:463][839]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.33.42:097][596]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.33.42:628][643]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.33.45:822][922]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.33.46:258][960]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.33.48:121][115]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.33.54:485][678]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.34.22:956][263]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.34.27:383][647]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.34.28:209][709]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.34.41:994][797]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.34.42:414][833]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.34.44:228][986]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.34.47:423][263]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.34.48:211][314]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.34.58:024][ 13]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.34.58:613][ 64]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.35.00:000][176]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.35.03:627][488]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.35.11:668][171]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.35.12:614][235]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.35.46:493][969]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.35.55:495][792]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.35.56:404][792]LogSavePackage: Save=650.240479ms
+[2015.09.23-14.35.56:404][792]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/Testing_Level_Auto2C4BB9FE34BDA8D3A329953A431E2DF43.tmp' to '../../../../Projekte/NotPartofTheGame/Saved/Autosaves/Game/NPOTG/Maps/Testing_Level_Auto2.umap'
+[2015.09.23-14.35.56:408][792]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/NPOTG/Maps/Testing_Level' took 0.804
+[2015.09.23-14.35.56:408][792]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.804
+[2015.09.23-14.35.56:433][792]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/NPOTG/Blueprints/Charaktere/wolf] ([1] browsable assets)...
+[2015.09.23-14.35.56:433][792]OBJ SavePackage: Finished generating thumbnails for package [/Game/NPOTG/Blueprints/Charaktere/wolf]
+[2015.09.23-14.35.56:748][792]LogSavePackage: Save=248.812027ms
+[2015.09.23-14.35.56:748][792]LogSavePackage: Moving '../../../../Projekte/NotPartofTheGame/Saved/wolf_Auto2ACAC11764627D372EA2A6EA8916043D2.tmp' to '../../../../Projekte/NotPartofTheGame/Saved/Autosaves/Game/NPOTG/Blueprints/Charaktere/wolf_Auto2.uasset'
+[2015.09.23-14.35.56:760][792]LogFileHelpers: Auto-saving content packages took 0.351
+[2015.09.23-14.35.58:318][932]BlueprintLog: New page: Compile wolf
+[2015.09.23-14.35.58:676][932]BlueprintEditorCompileResults: Info [2185.75] Compile of wolf successful! [in 357 ms]
+[2015.09.23-14.36.04:802][473]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.36.05:282][496]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.36.09:037][763]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.36.32:514][938]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.36.35:212][186]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.36.41:020][613]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.36.41:397][629]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.36.45:826][884]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.36.51:239][188]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.36.58:258][806]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.37.01:158][ 44]BlueprintLog: New page: Compile wolf
+[2015.09.23-14.37.01:264][ 44]LogBlueprint:Error: [compiler wolf] Error This blueprint (self) is not a Markimoo_C, therefore ' Target ' must have a connection.
+[2015.09.23-14.37.01:510][ 44]LogBlueprint:Warning: [compiler wolf] Warning [2248.59] Compile of wolf failed. 1 Fatal Issue(s) 0 Warning(s) [in 352 ms]
+[2015.09.23-14.37.01:510][ 44]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Markimoo_C, therefore ' Target ' must have a connection.
+[2015.09.23-14.37.01:510][ 44]BlueprintEditorCompileResults:Warning: Warning [2248.59] Compile of wolf failed. 1 Fatal Issue(s) 0 Warning(s) [in 352 ms]
+[2015.09.23-14.37.04:117][259]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.37.05:713][397]BlueprintLog: New page: Compile wolf
+[2015.09.23-14.37.05:966][397]BlueprintEditorCompileResults: Info [2253.04] Compile of wolf successful! [in 252 ms]
+[2015.09.23-14.37.38:307][254]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.37.39:014][299]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.37.48:976][ 33]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.37.55:471][606]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.37.58:468][856]LogD3D11RHI: InitD3DDevice
+[2015.09.23-14.38.01:757][
